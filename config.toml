@@ -2,7 +2,7 @@
 # General Site Settings
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = ""
+title = "Skye lee's blog"
 googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 paginate = 9
 
@@ -36,11 +36,8 @@ paginate = 9
 
 
 [params]
-  useFaviconGenerator = false
   logo = "https://i.postimg.cc/BbjQ0Sxg/logo1.png" # You can add own logo. For example "/images/logo.png".
-  logoType = "short"
   description = "My awesome blog"
-  themeOptions = ["dark","light"]
 
   [params.author]
     name = "Li Hao"
@@ -52,6 +49,11 @@ paginate = 9
     hero__description = "Thoughts, stories and ideas."
     hero__image = "/images/Background.jpg"
 
+  [[params.social]]
+    icon = "ion-logo-weibo"
+    name = "Weibo"
+    link = "https://weibo.com"
+    
   [[params.social]]
     icon = "ion-logo-twitter"
     name = "Twitter"
