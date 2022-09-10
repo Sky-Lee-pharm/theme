@@ -37,7 +37,7 @@ paginate = 9
 
 [params]
   useFaviconGenerator = true
-  logo = "logo.png" # You can add own logo. For example "/images/logo.png".
+  logo = "https://i.postimg.cc/BbjQ0Sxg/logo1.png" # You can add own logo. For example "/images/logo.png".
   description = "My awesome blog"
 
   [params.author]
@@ -48,7 +48,7 @@ paginate = 9
   [params.hero]
     hero__title = "Skye Lee"
     hero__description = "Thoughts, stories and ideas."
-    hero__image = "/images/Background.jpg"
+    hero__image = "https://i.postimg.cc/5NjpZZD2/lihao.jpg"
 
   [[params.social]]
     icon = "ion-logo-twitter"
