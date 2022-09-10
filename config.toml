@@ -36,7 +36,7 @@ paginate = 9
 
 
 [params]
-  logo = "https://i.postimg.cc/QtXv5fCK/logo.png"# You can add own logo. For example "/images/logo.png".
+  logo = "logo.png"# You can add own logo. For example "/images/logo.png".
   logoType = "short"
   description = "My awesome blog"
 
@@ -49,11 +49,6 @@ paginate = 9
     hero__title = "Skye Lee"
     hero__description = "Thoughts, stories and ideas."
     hero__image = "/images/Background.jpg"
-
-  [[params.social]]
-    icon = "ion-logo-weibo"
-    name = "Weibo"
-    link = "https://weibo.com"
     
   [[params.social]]
     icon = "ion-logo-twitter"
