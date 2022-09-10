@@ -2,7 +2,7 @@
 # General Site Settings
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Skyee Lee"
+title = "Skye Lee"
 googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 paginate = 9
 
@@ -37,7 +37,7 @@ paginate = 9
 
 [params]
   useFaviconGenerator = true
-  logo = "/images/logo4.jpg" # You can add own logo. For example "/images/logo.png".
+  logo = "/static/images/logo4.jpg" # You can add own logo. For example "/images/logo.png".
   description = "My awesome blog"
 
   [params.author]
