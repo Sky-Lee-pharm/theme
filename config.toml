@@ -37,7 +37,7 @@ paginate = 9
 
 [params]
   useFaviconGenerator = true
-  logo = "/images/logo.png" # You can add own logo. For example "/images/logo.png".
+  logo = "/static/images/logo.png" # You can add own logo. For example "/images/logo.png".
   description = "My awesome blog"
 
   [params.author]
