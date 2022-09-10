@@ -1,5 +1,5 @@
 ---
-image: https://i.postimg.cc/5NjpZZD2/lihao.jpg
+image: https://i.postimg.cc/CM3qJXC8/logo.png
 title: About
 ---
 
