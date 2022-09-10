@@ -36,7 +36,7 @@ paginate = 9
 
 
 [params]
-  logo = "i.postimg.cc/QtXv5fCK/logo.png"# You can add own logo. For example "/images/logo.png".
+  logo = "/images/logo.png"# You can add own logo. For example "/images/logo.png".
   logoType = "short"
   description = "My awesome blog"
 
