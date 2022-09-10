@@ -36,7 +36,8 @@ paginate = 9
 
 
 [params]
-  logo = "https://i.postimg.cc/BbjQ0Sxg/logo1.png" # You can add own logo. For example "/images/logo.png".
+  logo = "https://i.postimg.cc/QtXv5fCK/logo.png"# You can add own logo. For example "/images/logo.png".
+  logoType = "short"
   description = "My awesome blog"
 
   [params.author]
