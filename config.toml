@@ -38,6 +38,7 @@ paginate = 9
 [params]
   logo = "/images/logo4.jpg"# You can add own logo. For example "/images/logo.png".
   logoType = "short"
+  useFaviconGenerator = true
   description = "My awesome blog"
 
   [params.author]
