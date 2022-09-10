@@ -1,6 +1,6 @@
 #-------------------------------
 # General Site Settings
-baseURL = "http://example.org/"
+baseURL = "http://www.pharma-lee-blog.top"
 languageCode = "en-us"
 title = "Skye lee's blog"
 googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
@@ -36,7 +36,7 @@ paginate = 9
 
 
 [params]
-  logo = "logo.png"# You can add own logo. For example "/images/logo.png".
+  logo = "https://i.postimg.cc/QtXv5fCK/logo.png"# You can add own logo. For example "/images/logo.png".
   logoType = "short"
   description = "My awesome blog"
 
