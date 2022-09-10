@@ -1,23 +1,15 @@
 ---
-image: https://via.placeholder.com/1260x840
+image: https://i.postimg.cc/5NjpZZD2/lihao.jpg
 title: About
 ---
 
-Hi, my name is Brandon Watson. I like being at the center of events, being free and enjoying every moment. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies. Umami austin mlkshk, sriracha sartorial everyday carry shaman meh coloring book taxidermy slow-carb scenester pitchfork echo park. Selvage bushwick chambray coloring book put a bird.
+Hi, my name is li Hao. I like being at the center of events, being free and enjoying every moment. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies. Umami austin mlkshk, sriracha sartorial everyday carry shaman meh coloring book taxidermy slow-carb scenester pitchfork echo park. Selvage bushwick chambray coloring book put a bird.
 
-![Time to think](https://via.placeholder.com/1260x840)
-*Time to think*
+![Shenyang pharmaceutical university](https://i.postimg.cc/zv63QbR5/cgi-bin-mmwebwx-bin-webwxgetmsgimg-Msg-ID-5768701591282479062-skey-crypt-c5c3531a-6509b61b7c46eb0.jpg)
+*Shenyang pharmaceutical university*
 
 Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Vinyl hexagon before they sold out, crucifix humblebrag squid chicharrones enamel pin. Iceland humblebrag farm-to-table, lyft pug tilde irony.
 Hot chicken shoreditch tousled listicle, actually meggings vape. Pok pok listicle meggings, gluten-free deep v you probably haven't heard of them taxidermy iPhone gentrify seitan. Marfa schlitz literally.
-
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="https://via.placeholder.com/1260x840">
-    <img src="https://via.placeholder.com/1260x840">
-    <img src="https://via.placeholder.com/1260x840">
-  </div>
-</div>
 
 The Force is strong with this one. I have you now. I find your lack of faith disturbing. Hey, Luke! May the Force be with you. She must have hidden the plans in the escape pod. Send a detachment down to retrieve them, and see to it personally, Commander. There’ll be no one to stop us this time!
 
