@@ -20,14 +20,19 @@ paginate = 9
     identifier = "about"
     name = "About"
     url = "/about"
-    weight = 2
+    weight = 3
 
   [[menu.main]]
     identifier = "contact"
     name = "Contact Me"
     url = "/contact"
-    weight = 3
-
+    weight = 4
+    
+  [[menu.main]]
+    identifier = "blog" 
+    name = "Blog"
+    url = "/blog"
+    weight = 2
  # [[menu.main]]
 #  identifier = "styleguide"
 #    name = "Style Guide"
