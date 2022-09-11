@@ -1,5 +1,4 @@
 ---
-image: https://via.placeholder.com/1260x840
 layout: contact
 title: Contact Me
 ---
