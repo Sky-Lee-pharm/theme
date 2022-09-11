@@ -1,7 +1,11 @@
 ---
 title: About
 ---
-
+<style type=text/css>
+  p {
+     text-align:center;
+  }
+</style>  
 <div style="width:800px;">
   <div class="gallery-box">
     <div class="gallary">
