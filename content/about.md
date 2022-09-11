@@ -3,13 +3,13 @@ title: About
 ---
 
 </div>
-<div style="width:500px;">
+<div style="width:1000px;">
   <div class="gallery-box">
     <div class="gallary">
       <img src="https://i.postimg.cc/5NjpZZD2/lihao.jpg" align="right" width="180" hspace="3" vspace="3" />
     </div>
   </div>
-Hi, my name is li Hao. I like being at the center of events, being free and enjoying every moment. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies. Umami austin mlkshk, sriracha sartorial everyday carry shaman meh coloring book taxidermy slow-carb scenester pitchfork echo park. Selvage bushwick chambray coloring book put a bird.
+Hi, my name is li Hao. I am so happy creating this blog to record my life and ideas. My personality is introvert, which makes me more creative and equanimous. I like reading poetry and singing at the . I like being at the center of events, being free and enjoying every moment. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies. Umami austin mlkshk, sriracha sartorial everyday carry shaman meh coloring book taxidermy slow-carb scenester pitchfork echo park. Selvage bushwick chambray coloring book put a bird.
 </div>
 Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Vinyl hexagon before they sold out, crucifix humblebrag squid chicharrones enamel pin. Iceland humblebrag farm-to-table, lyft pug tilde irony.
 <div style="width=1000px">
