@@ -19,7 +19,7 @@ paginate = 9
   [[menu.main]]
     identifier = "library"
     name="Library"
-    url = "https://www-sslibrary-com-s.webvpn.bjmu.edu.cn/dzs?pageId=239443&wfwfid=187742&websiteId=143287"
+    url = "https://www.zhizhen.com/"
     weight = 2
    
   [[menu.main]]
