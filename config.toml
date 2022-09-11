@@ -24,8 +24,8 @@ paginate = 9
   
   [[menu.main]]
     identifier = "spu"
-    name = "Off-Campus SPU"
-    url = "https://portal.syphu.edu.cn/web/guest#/"
+    name = "Off-campus"
+    url = "http://sso.syphu.edu.cn/sso/login?service=https://portal.syphu.edu.cn/user/simpleSSOLogin"
     weight = 3
   
   [[menu.main]]
