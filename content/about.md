@@ -2,7 +2,7 @@
 title: About
 ---
   
-<div style="width:500px;">
+<div style="width:600px;">
   <div class="gallery-box">
     <div class="gallary">
       <img src="https://i.postimg.cc/5NjpZZD2/lihao.jpg" align="right" width="180" hspace="1" vspace="1" />
