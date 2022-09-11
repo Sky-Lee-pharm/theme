@@ -3,16 +3,20 @@ title: About
 ---
 
 Hi, my name is li Hao. I like being at the center of events, being free and enjoying every moment. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies. Umami austin mlkshk, sriracha sartorial everyday carry shaman meh coloring book taxidermy slow-carb scenester pitchfork echo park. Selvage bushwick chambray coloring book put a bird.
-
-![Shenyang pharmaceuticl uniersity]
-<div class="gallery-box">
-  <div class="gallary">
-    <img src="https://i.postimg.cc/zv63QbR5/cgi-bin-mmwebwx-bin-webwxgetmsgimg-Msg-ID-5768701591282479062-skey-crypt-c5c3531a-6509b61b7c46eb0.jpg" align="center" width="500"/>
-  </div>
-</div>
-*Shenyang pharmaceutical university*
-
 Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Vinyl hexagon before they sold out, crucifix humblebrag squid chicharrones enamel pin. Iceland humblebrag farm-to-table, lyft pug tilde irony.
+<style>
+p { 
+  font-weight: bold;
+}
+</style>
+<div style="width:1000px;">
+  <div class="gallery-box">
+    <div class="gallary">
+      <img src="https://i.postimg.cc/zv63QbR5/cgi-bin-mmwebwx-bin-webwxgetmsgimg-Msg-ID-5768701591282479062-skey-crypt-c5c3531a-6509b61b7c46eb0.jpg" align="center" width="500"/>
+    </div>
+  </div>
+<p align="center"> Shenyang pharmaceutical universit </p>
+</div>
 Hot chicken shoreditch tousled listicle, actually meggings vape. Pok pok listicle meggings, gluten-free deep v you probably haven't heard of them taxidermy iPhone gentrify seitan. Marfa schlitz literally.
 
 <div style="width:500px;">
