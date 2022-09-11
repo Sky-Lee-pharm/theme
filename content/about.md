@@ -8,9 +8,7 @@ title: About
       <img src="https://i.postimg.cc/5NjpZZD2/lihao.jpg" align="right" width="180" hspace="1" vspace="1" />
     </div>
   </div> 
-<p text-align:center;>Hi, my name is li Hao. I am so happy creating this blog to record my life and ideas. My personality is introvert, which makes me more creative and equanimous. I like reading poetry and singing at the . I like being at the center of events, being free and enjoying every moment. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies. Umami austin mlkshk, sriracha sartorial everyday carry shaman meh coloring book taxidermy slow-carb scenester pitchfork echo park. Selvage bushwick chambray coloring book put a bird.
-
-Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Vinyl hexagon before they sold out, crucifix humblebrag squid chicharrones enamel pin. Iceland humblebrag farm-to-table, lyft pug tilde irony.
+<p text-align:center;>Hi, my name is li Hao. I am so happy creating this blog to record my life and ideas. My personality is introvert, which makes me more creative and equanimous. I like singing and reciting poem on the stage. During my spare time, I love to watch and learn a little bit musical songs. I graduated from Shenyang pharmaceuticl university, majoring in Chinese medcine pharmacy. When I was young, my fitness was terrible. How lucky I am, which met the traditional Chinese medicine (TCM) to take good care of my health. The theory of TCM is dialectical treatment, which led me to the gate of philosophy.
   <div class="gallery-box">
     <b align="center"> Shenyang pharmaceutical university </b>
     <div class="gallary">
