@@ -16,7 +16,7 @@ Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercat
   <div class="gallery-box">
     <b align="center"> Shenyang pharmaceutical university </b>
     <div class="gallary">
-      <img src="https://i.postimg.cc/zv63QbR5/cgi-bin-mmwebwx-bin-webwxgetmsgimg-Msg-ID-5768701591282479062-skey-crypt-c5c3531a-6509b61b7c46eb0.jpg" align="left" width="500" />
+      <img src="https://i.postimg.cc/zv63QbR5/cgi-bin-mmwebwx-bin-webwxgetmsgimg-Msg-ID-5768701591282479062-skey-crypt-c5c3531a-6509b61b7c46eb0.jpg" align="left" width="500" height="200" />
     </div>
   </div>
 Hot chicken shoreditch tousled listicle, actually meggings vape. Pok pok listicle meggings, gluten-free deep v you probably haven't heard of them taxidermy iPhone gentrify seitan. Marfa schlitz literally.
