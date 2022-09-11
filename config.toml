@@ -19,7 +19,7 @@ paginate = 9
   [[menu.main]]
     identifier = "library"
     name="Library"
-    url = "http://www.80lib.com/user/enlist"
+    url = "https://so.hiqq.com.cn/"
     weight = 2
    
   [[menu.main]]
