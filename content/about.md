@@ -16,3 +16,14 @@ title: About
     </div>
   </div>
 During my work and study, I tryed to reinstall the windows system and skillfully used Microsoft office. However, as the windows system crashed frequently, I met the chromeOS laptop, which opened the world of open source and my route of data analysis. The Force is strong with this one. I have you now. I find your lack of faith disturbing. Hey, Luke! May the Force be with you. She must have hidden the plans in the escape pod. Send a detachment down to retrieve them, and see to it personally, Commander. There’ll be no one to stop us this time!</p></div>
+<script src="https://sdk.scdn.co/spotify-player.js"></script>
+<script>
+window.onSpotifyWebPlaybackSDKReady = () => {
+  const userAccessToken = "[access token]";
+  const webPlayback = new Spotify.Player({
+    name: "Spotify Web Playback SDK",
+    getOAuthToken: callback => { callback(userAccessToken)}
+  });
+  webPlayback.connect();
+};
+</script>
