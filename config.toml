@@ -19,26 +19,20 @@ paginate = 9
   [[menu.main]]
     identifier = "library"
     name="Library"
-    url = "https://pku-summon-serialssolutions-com-443.webvpn.bjmu.edu.cn/#!/"
+    url = "https://jcr.clarivate.com/jcr/home?Init=Yes&SrcApp=IC2LS&locale=en_US"
     weight = 2
-    
-  [[menu.main]]
-    identifier = "platform"
-    name = "Platform"
-    url = "http://10.10.32.201/lims/"
-    weight = 3
    
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about"
-    weight = 4
+    weight = 3
 
   [[menu.main]]
     identifier = "contact"
     name = "Contact Me"
     url = "/contact"
-    weight = 5
+    weight = 4
     
  # [[menu.main]]
 #  identifier = "styleguide"
