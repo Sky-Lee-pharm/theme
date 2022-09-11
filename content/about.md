@@ -15,15 +15,4 @@ title: About
       <img src="https://i.postimg.cc/zv63QbR5/cgi-bin-mmwebwx-bin-webwxgetmsgimg-Msg-ID-5768701591282479062-skey-crypt-c5c3531a-6509b61b7c46eb0.jpg" align="left" width="250" height="250" vspace="1" hspace="1" />
     </div>
   </div>
-During my work and study, I tryed to reinstall the windows system and skillfully used Microsoft office. However, as the windows system crashed frequently, I met the chromeOS laptop, which opened the world of open source and my route of data analysis. The Force is strong with this one. I have you now. I find your lack of faith disturbing. Hey, Luke! May the Force be with you. She must have hidden the plans in the escape pod. Send a detachment down to retrieve them, and see to it personally, Commander. There’ll be no one to stop us this time!</p></div>
-<script src="https://sdk.scdn.co/spotify-player.js"></script>
-<script>
-window.onSpotifyWebPlaybackSDKReady = () => {
-  const userAccessToken = "[access token]";
-  const webPlayback = new Spotify.Player({
-    name: "Spotify Web Playback SDK",
-    getOAuthToken: callback => { callback(userAccessToken)}
-  });
-  webPlayback.connect();
-};
-</script>
+During my work and study, I tryed to reinstall the windows system and skillfully used Microsoft office. However, as the windows system crashed frequently, I met the chromeOS laptop, which opened the world of open source and my route of data analysis. I taught myself Linux operating systems and used R language, python, gimp, VMD, etc. software to complete my academic thesis. I always have curiosity and learn ability in an unfamiliar territory.</p></div>
