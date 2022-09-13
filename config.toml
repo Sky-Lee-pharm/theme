@@ -119,8 +119,8 @@ paginate = 9
 
   #-------------------------------
   # Comment Section (Disqus)
-  [params.disqus]
-    disqusShortname = "anvod-studio-aditu" # add your shortname for Disqus Comment. For example anvod-studio-aditu
+  #[params.disqus]
+  #  disqusShortname = "anvod-studio-aditu" # add your shortname for Disqus Comment. For example anvod-studio-aditu
 
 
 [markup]
