@@ -1,13 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
- <div class="col col-4 col-d-6 col-t-12">
+<div class="col col-4 col-d-6 col-t-12">
   <div class="widget widget-search">
     <div class="widget__head">
       <h3 class="widget__title">{{ .Site.Params.mailchimp.mailchimp__title }}</h3>
     </div>
-    <!{{ if .Site.Params.mailchimp.mailchimp__text }}
+    {{ if .Site.Params.mailchimp.mailchimp__text }}
     <p class="search-subtitle">{{ .Site.Params.mailchimp.mailchimp__text }}</p>
-    {{ end }}>
+    {{ end }}
     <form class="search-form validate"
       action="https://cn.bing.com/search" method="get"
       id="membedded-search-form" name="membedded-search-form" target="_blank" novalidate>
@@ -21,4 +19,3 @@
     </form>
   </div>
 </div>
-</html>
