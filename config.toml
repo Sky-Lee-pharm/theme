@@ -129,11 +129,11 @@ paginate = 9
 #      unsafe = true
 
 
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
+#[outputs]
+#  home = ["HTML", "RSS", "JSON"]
 
 
-[markup.highlight]
-  codeFences = true
-  guessSyntax = true
-  noClasses = false
+#[markup.highlight]
+#  codeFences = true
+#  guessSyntax = true
+#  noClasses = false
