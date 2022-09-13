@@ -123,10 +123,10 @@ paginate = 9
   #  disqusShortname = "anvod-studio-aditu" # add your shortname for Disqus Comment. For example anvod-studio-aditu
 
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+#[markup]
+#  [markup.goldmark]
+#  [markup.goldmark.renderer]
+#      unsafe = true
 
 
 [outputs]
