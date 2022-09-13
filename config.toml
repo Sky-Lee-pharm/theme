@@ -111,29 +111,29 @@ paginate = 9
 
   #-------------------------------
   # Contact Settings
-  #[params.contact]
-  #  email = "pharma-lee@outlook.com" # Add your email for contant form
+  [params.contact]
+    email = "pharma-lee@outlook.com" # Add your email for contant form
 
     # NOTE
     # Aditu comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
 
   #-------------------------------
-  # Comment Section (Disqus)
-  #[params.disqus]
-  #  disqusShortname = "anvod-studio-aditu" # add your shortname for Disqus Comment. For example anvod-studio-aditu
+   #Comment Section (Disqus)
+  [params.disqus]
+    disqusShortname = "anvod-studio-aditu" # add your shortname for Disqus Comment. For example anvod-studio-aditu
 
 
-#[markup]
-#  [markup.goldmark]
-#  [markup.goldmark.renderer]
-#      unsafe = true
+[markup]
+  [markup.goldmark]
+  [markup.goldmark.renderer]
+      unsafe = true
 
 
-#[outputs]
-#  home = ["HTML", "RSS", "JSON"]
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 
-#[markup.highlight]
-#  codeFences = true
-#  guessSyntax = true
-#  noClasses = false
+[markup.highlight]
+  codeFences = true
+  guessSyntax = true
+  noClasses = false
