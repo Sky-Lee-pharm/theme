@@ -19,7 +19,7 @@ paginate = 9
   [[menu.main]]
     identifier = "library"
     name="Library"
-    url = "https://so.hiqq.com.cn/"
+    url = "https://www.mendeley.com/reference-manager/library/collections/bae3fb69-af6d-4562-8483-d568dda2479d/all-references/"
     weight = 2
   
   [[menu.main]]
