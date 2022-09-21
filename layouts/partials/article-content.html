@@ -32,7 +32,7 @@
           <a href="/about/" class="article__author-image" style="background-image: url('{{ .Site.Params.author.avatar | absURL }}')" aria-label="{{.Site.Params.author.name}}'s Picture"></a> <a href="/about/" class="article__author-link">{{.Site.Params.author.name}}</a>
         </div>
 
-        <time class="article__date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+        <time class="article__date" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}">
           {{ .Date.Format "Jan 2, 2006" }}
         </time>
       </div>
