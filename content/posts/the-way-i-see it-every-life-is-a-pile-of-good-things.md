@@ -1,6 +1,6 @@
 ---
-date: 2018-11-13 15:01:35 +0300
-image: https://via.placeholder.com/1260x840
+date: 2022-09-21 14:22:43 CST
+image: https://i.postimg.cc/c1PNFB2b/Screenshot-2022-09-21-12-38-14.png
 tags:
 - lifestyle
 title: The way I see it, every life is a pile of good things
