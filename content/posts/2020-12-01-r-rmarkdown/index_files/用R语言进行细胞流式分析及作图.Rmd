@@ -1,0 +1,77 @@
+---
+title: "用R语言进行细胞流式分析及作图"
+output: html_document
+date: '2022-11-09'
+---
+
+首先进行依赖包的安装
+
+```{r eval=FALSE, error=FALSE, message=FALSE, warning=FALSE, echo=TRUE}
+install.packages("BiocManager")
+install.packages("devtools")
+BiocManager::install("cytolib") #不安装这个依赖包后续安装中会出错
+BioManager::install("flowCore") #用于后缀为.fcs的文件
+BiocManager::install("flowViz") #基础的可视化工具
+BiocManager::install("ggcyto") #使用ggplot命名法的高级可视化工具
+BiocManager::install("openCyto") #用于链接各种分析方法
+BiocManager::install("flowWorkspace") #用于建立分析模板
+BiocManager::install("CytoML") #插入 FlowJo and DiVA 工作区
+BiocManager::install("flowAI")
+BiocManager::install("flowClean")
+BiocManager::install("flowCut") #这些依赖包很大程度上需要彼此工作（除了flowCore，它是“基础包”）。so文件经常会在没有人为操作的情况下互相加载。为简单起见，我们将它们全部加载。您可能需要“清理”数据。flowaAI 和 flowCut是我的推荐。其中flowClean是原始的，但被flowCut取代。因此安装以下依赖包。
+devtools::install_github("DillonHammill/CytoExploreRData")
+devtools::install_github("DillonHammill/CytoExploreR",build_vignettes = TRUE) #一个有趣的依赖包是CytoExploreR，它试图将 R 的强大功能与鼠标的易用性结合起来。可以可视化的进行编辑和做图。
+#这两个依赖包可能有点大，第一个包有3GB，建议使用断点续存的方式进行下载后在安装依赖。整体的安装过程可能有些枯燥和耗时，需要耐心等待。
+```
+
+加载需要的依赖包
+
+```{r echo=TRUE, error=FALSE, message=FALSE, warning=FALSE, , echo=TRUE, cache=FALSE}
+library(flowCore)
+library(flowAI)
+library(ggcyto)
+library(ggplot2)
+
+fs <- read.FCS(filename = "/mnt/chromeos/MyFiles/Downloads/debian/flow_Cytometry/Sample/0001.FCS", alter.names=TRUE) #将需要的文件在R语言中打开
+fs_comp <- compensate(fs, spillover(fs)$SPILL) #补偿表也可以在Flowjo软件中进行修改使图像更接近于真实水平
+fs_comp_clean <- flow_auto_qc(fs_comp)
+#接下来，用flow_auto_clean()的命令清理文件中流式数据的细胞碎片和死细胞
+fs_comp_clean #输出清理后的数据
+fs #与清理前的数据进行对比
+#显然剔除了一些细胞碎片和死细胞，可以使流式的散点图更规整接着，转换文件并作图
+trans <- estimateLogicle(fs_comp_clean, colnames(fs_comp_clean[,3:10]))
+fs_comp_clean_trans <- transform(fs_comp_clean, trans)
+ggcyto(fs_comp_clean_trans,aes(x="FITC.A",y="PE.A")) +
+geom_hex(bins=256) +
+theme_classic() #成功输出了流式散点图
+
+ggcyto(fs_comp_clean_trans,aes(x="FITC.A")) +
+geom_density() +
+theme_classic() #成功输出了密度图
+```
+
+比如说在之前的作图中，我们发现按照教程做出来的图的横纵坐标都非常小。列位可能会有疑惑：难道是依赖包的自动清理死细胞和细胞碎片的问题吗？
+
+经过一些尝试和考察，小编发现：其原因是在于以下命令行
+
+```{r, echo=TRUE, message=FALSE, warning=FALSE}
+trans <- estimateLogicle(fs_comp_clean, colnames(fs_comp_clean[,3:10]))
+fs_comp_clean_trans <- transform(fs_comp_clean, trans)
+
+fs_comp_clean
+```
+
+在这个命令中，存在一些问题在于实验目的，比如我们实验中只做了一个FITC的单染，并没有做其他染色。要如何绘制流式散点图呢？比如：常见到的sci中的横纵坐标为科学计数法的形式。则整体应该修改代码
+
+```{r, echo=TRUE, warning=FALSE, message=FALSE}
+
+trans <- estimateLogicle(fs_comp_clean, colnames(fs_comp_clean[,4]))
+fs_comp_clean_trans <- transform(fs_comp_clean, trans)
+#在转换中只留FITC的信号而屏蔽其他荧光区的杂信号。
+
+ggcyto(fs_comp_clean_trans,aes(x="FITC.A",y="PE.A")) +
+    geom_hex(bins=256) +
+    labs(x="FITC-A", y="PE-A") +
+    scale_x_flowjo_biexp() +
+    theme_classic()
+```
