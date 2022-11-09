@@ -6,7 +6,7 @@ date: '2022-11-09'
 
 首先进行依赖包的安装
 
-```{r eval=FALSE, error=FALSE, message=FALSE, warning=FALSE, include=FALSE, echo=FALSE}
+```{r eval=FALSE, error=FALSE, message=FALSE, warning=FALSE, include=FALSE, echo=TRUE}
 install.packages("BiocManager")
 install.packages("devtools")
 BiocManager::install("cytolib") #不安装这个依赖包后续安装中会出错
@@ -26,7 +26,7 @@ devtools::install_github("DillonHammill/CytoExploreR",build_vignettes = TRUE) #�
 
 加载需要的依赖包
 
-```{r, error=FALSE, message=FALSE, echo=FALSE, cache=FALSE, warning=FALSE}
+```{r, error=FALSE, message=FALSE, echo=TRUE, cache=FALSE, warning=FALSE}
 library(flowCore)
 library(flowAI)
 library(ggcyto)
