@@ -78,11 +78,11 @@ fs_comp_clean_trans &lt;- transform(fs_comp_clean, trans)
 ggcyto(fs_comp_clean_trans,aes(x=&quot;FITC.A&quot;,y=&quot;PE.A&quot;)) +
 geom_hex(bins=256) +
 theme_classic() #成功输出了流式散点图</code></pre>
-<p><img src="{{< blogdown/postref >}}https://i.postimg.cc/mgV03smW/1-1.png" width="672" /></p>
+<p><img src="https://i.postimg.cc/mgV03smW/1-1.png" width="672" /></p>
 <pre class="r"><code>ggcyto(fs_comp_clean_trans,aes(x=&quot;FITC.A&quot;)) +
 geom_density() +
 theme_classic() #成功输出了密度图</code></pre>
-<p><img src="{{< blogdown/postref >}}https://i.postimg.cc/6pBkG3Lh/1-2.png" width="672" /></p>
+<p><img src="https://i.postimg.cc/6pBkG3Lh/1-2.png" width="672" /></p>
 <p>比如说在之前的作图中，我们发现按照教程做出来的图的横纵坐标都非常小。列位可能会有疑惑：难道是依赖包的自动清理死细胞和细胞碎片的问题吗？</p>
 <p>经过一些尝试和考察，小编发现：其原因是在于以下命令行</p>
 <pre class="r"><code>trans &lt;- estimateLogicle(fs_comp_clean, colnames(fs_comp_clean[,3:10]))
@@ -114,6 +114,6 @@ ggcyto(fs_comp_clean_trans,aes(x=&quot;FITC.A&quot;,y=&quot;PE.A&quot;)) +
     labs(x=&quot;FITC-A&quot;, y=&quot;PE-A&quot;) +
     scale_x_flowjo_biexp() +
     theme_classic()</code></pre>
-<p><img src="{{< blogdown/postref >}}https://i.postimg.cc/wBvn0Gry/1-3.png" width="672" /></p>
+<p><img src="https://i.postimg.cc/wBvn0Gry/1-3.png" width="672" /></p>
 
 </div>
