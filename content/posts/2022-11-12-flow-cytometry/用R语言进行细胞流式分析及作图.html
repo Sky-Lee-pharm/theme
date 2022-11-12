@@ -1,0 +1,125 @@
+---
+title: "用R语言进行细胞流式分析及作图"
+author: "Li Hao"
+date: 2022-11-12
+categories: ["R"]
+tags: ["细胞流式", "R语言", "工作"]
+---
+
+
+<div id="header" class="container-fluid main-container">
+
+
+
+<h1 class="title toc-ignore">用R语言进行细胞流式分析及作图</h1>
+<h4 class="author">Li Hao</h4>
+<h4 class="date">2022-11-09</h4>
+
+
+<p>首先进行依赖包的安装</p>
+<pre class="r"><code>install.packages(&quot;BiocManager&quot;)
+install.packages(&quot;devtools&quot;)
+BiocManager::install(&quot;cytolib&quot;) #不安装这个依赖包后续安装中会出错
+BioManager::install(&quot;flowCore&quot;) #用于后缀为.fcs的文件
+BiocManager::install(&quot;flowViz&quot;) #基础的可视化工具
+BiocManager::install(&quot;ggcyto&quot;) #使用ggplot命名法的高级可视化工具
+BiocManager::install(&quot;openCyto&quot;) #用于链接各种分析方法
+BiocManager::install(&quot;flowWorkspace&quot;) #用于建立分析模板
+BiocManager::install(&quot;CytoML&quot;) #插入 FlowJo and DiVA 工作区
+BiocManager::install(&quot;flowAI&quot;)
+BiocManager::install(&quot;flowClean&quot;)
+BiocManager::install(&quot;flowCut&quot;) #这些依赖包很大程度上需要彼此工作（除了flowCore，它是“基础包”）。so文件经常会在没有人为操作的情况下互相加载。为简单起见，我们将它们全部加载。您可能需要“清理”数据。flowaAI 和 flowCut是我的推荐。其中flowClean是原始的，但被flowCut取代。因此安装以下依赖包。
+devtools::install_github(&quot;DillonHammill/CytoExploreRData&quot;)
+devtools::install_github(&quot;DillonHammill/CytoExploreR&quot;,build_vignettes = TRUE) #一个有趣的依赖包是CytoExploreR，它试图将 R 的强大功能与鼠标的易用性结合起来。可以可视化的进行编辑和做图。
+#这两个依赖包可能有点大，第一个包有3GB，建议使用断点续存的方式进行下载后在安装依赖。整体的安装过程可能有些枯燥和耗时，需要耐心等待。</code></pre>
+<p>加载需要的依赖包</p>
+<pre class="r"><code>library(flowCore)
+library(flowAI)
+library(ggcyto)
+library(ggplot2)
+
+fs &lt;- read.FCS(filename = &quot;/mnt/chromeos/MyFiles/Downloads/debian/flow_Cytometry/Sample/0001.FCS&quot;, alter.names=TRUE) #将需要的文件在R语言中打开
+fs_comp &lt;- compensate(fs, spillover(fs)$SPILL) #补偿表也可以在Flowjo软件中进行修改使图像更接近于真实水平
+fs_comp_clean &lt;- flow_auto_qc(fs_comp)</code></pre>
+<pre><code>## Quality control for the file: 8c0a4953-f1da-4134-880e-4918967e16cb
+## 14.21% of anomalous cells detected in the flow rate check. 
+## 0% of anomalous cells detected in signal acquisition check. 
+## 0.09% of anomalous cells detected in the dynamic range check.</code></pre>
+<pre class="r"><code>#接下来，用flow_auto_clean()的命令清理文件中流式数据的细胞碎片和死细胞
+fs_comp_clean #输出清理后的数据</code></pre>
+<pre><code>## flowFrame object &#39;8c0a4953-f1da-4134-880e-4918967e16cb&#39;
+## with 428572 cells and 11 observables:
+##                name   desc     range  minRange  maxRange
+## $P1           FSC.A     NA    262144      0.00    262144
+## $P2           SSC.A     NA    262144   -111.00    262144
+## $P3          FITC.A   IFNa    262144    -63.45    262144
+## $P4            PE.A  CD123    262144   -101.25    262144
+## $P5   PerCP.Cy5.5.A  MHCII    262144    -75.60    262144
+## $P6        PE.Cy7.A   CD14    262144    -99.90    262144
+## $P7           APC.A  CD11c    262144    -48.10    262144
+## $P8       APC.Cy7.A    IL6    262144   -110.50    262144
+## $P9  Pacific.Blue.A   IL12    262144    -83.70    262144
+## $P10     Alex.700.A   TNFa    262144    -48.10    262144
+## $P11           Time     NA    262144      0.00    262144
+## 175 keywords are stored in the &#39;description&#39; slot</code></pre>
+<pre class="r"><code>fs #与清理前的数据进行对比</code></pre>
+<pre><code>## flowFrame object &#39;8c0a4953-f1da-4134-880e-4918967e16cb&#39;
+## with 500000 cells and 11 observables:
+##                name   desc     range  minRange  maxRange
+## $P1           FSC.A     NA    262144       0.0    262143
+## $P2           SSC.A     NA    262144    -111.0    262143
+## $P3          FITC.A   IFNa    262144    -111.0    262143
+## $P4            PE.A  CD123    262144    -111.0    262143
+## $P5   PerCP.Cy5.5.A  MHCII    262144    -111.0    262143
+## $P6        PE.Cy7.A   CD14    262144    -111.0    262143
+## $P7           APC.A  CD11c    262144     -80.6    262143
+## $P8       APC.Cy7.A    IL6    262144    -111.0    262143
+## $P9  Pacific.Blue.A   IL12    262144    -111.0    262143
+## $P10     Alex.700.A   TNFa    262144     -75.4    262143
+## $P11           Time     NA    262144       0.0    262143
+## 175 keywords are stored in the &#39;description&#39; slot</code></pre>
+<pre class="r"><code>#显然剔除了一些细胞碎片和死细胞，可以使流式的散点图更规整接着，转换文件并作图
+trans &lt;- estimateLogicle(fs_comp_clean, colnames(fs_comp_clean[,3:10]))
+fs_comp_clean_trans &lt;- transform(fs_comp_clean, trans)
+ggcyto(fs_comp_clean_trans,aes(x=&quot;FITC.A&quot;,y=&quot;PE.A&quot;)) +
+geom_hex(bins=256) +
+theme_classic() #成功输出了流式散点图</code></pre>
+<p><img src="{{< blogdown/postref >}}2022-11-12-flow-cytometry/figure_html/1-1.png" width="672" /></p>
+<pre class="r"><code>ggcyto(fs_comp_clean_trans,aes(x=&quot;FITC.A&quot;)) +
+geom_density() +
+theme_classic() #成功输出了密度图</code></pre>
+<p><img src="{{< blogdown/postref >}}2022-11-12-flow-cytometry/figure_html/1-2.png" width="672" /></p>
+<p>比如说在之前的作图中，我们发现按照教程做出来的图的横纵坐标都非常小。列位可能会有疑惑：难道是依赖包的自动清理死细胞和细胞碎片的问题吗？</p>
+<p>经过一些尝试和考察，小编发现：其原因是在于以下命令行</p>
+<pre class="r"><code>trans &lt;- estimateLogicle(fs_comp_clean, colnames(fs_comp_clean[,3:10]))
+fs_comp_clean_trans &lt;- transform(fs_comp_clean, trans)
+
+fs_comp_clean</code></pre>
+<pre><code>## flowFrame object &#39;8c0a4953-f1da-4134-880e-4918967e16cb&#39;
+## with 428572 cells and 11 observables:
+##                name   desc     range  minRange  maxRange
+## $P1           FSC.A     NA    262144      0.00    262144
+## $P2           SSC.A     NA    262144   -111.00    262144
+## $P3          FITC.A   IFNa    262144    -63.45    262144
+## $P4            PE.A  CD123    262144   -101.25    262144
+## $P5   PerCP.Cy5.5.A  MHCII    262144    -75.60    262144
+## $P6        PE.Cy7.A   CD14    262144    -99.90    262144
+## $P7           APC.A  CD11c    262144    -48.10    262144
+## $P8       APC.Cy7.A    IL6    262144   -110.50    262144
+## $P9  Pacific.Blue.A   IL12    262144    -83.70    262144
+## $P10     Alex.700.A   TNFa    262144    -48.10    262144
+## $P11           Time     NA    262144      0.00    262144
+## 175 keywords are stored in the &#39;description&#39; slot</code></pre>
+<p>在这个命令中，存在一些问题在于实验目的，比如我们实验中只做了一个FITC的单染，并没有做其他染色。要如何绘制流式散点图呢？比如：常见到的sci中的横纵坐标为科学计数法的形式。则整体应该修改代码</p>
+<pre class="r"><code>trans &lt;- estimateLogicle(fs_comp_clean, colnames(fs_comp_clean[,4]))
+fs_comp_clean_trans &lt;- transform(fs_comp_clean, trans)
+#在转换中只留FITC的信号而屏蔽其他荧光区的杂信号。
+
+ggcyto(fs_comp_clean_trans,aes(x=&quot;FITC.A&quot;,y=&quot;PE.A&quot;)) +
+    geom_hex(bins=256) +
+    labs(x=&quot;FITC-A&quot;, y=&quot;PE-A&quot;) +
+    scale_x_flowjo_biexp() +
+    theme_classic()</code></pre>
+<p><img src="{{< blogdown/postref >}}2022-11-12-flow-cytometry/figure_html/1-3.png" width="672" /></p>
+
+</div>
