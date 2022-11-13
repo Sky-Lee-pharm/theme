@@ -117,5 +117,58 @@ ggcyto(fs_comp_clean_trans,aes(x=&quot;FITC.A&quot;,y=&quot;PE.A&quot;)) +
     scale_x_flowjo_biexp() +
     theme_classic()</code></pre>
 <p><img src="https://i.postimg.cc/wBvn0Gry/1-3.png" width="672" /></p>
-
+<p>在之前的介绍中，已经基本上完成了流式依赖包的大部分也是主要功能。由于R语言的绘图以及自动化功能非常强大，所以正常而言在flowCore、openCyto和ggcyto依赖包解决不了的问题可以通过ggplot2进行解决。</p>
+<p>出现了一个getData()的命令，而在新版本的R语言中，该命令已经不存在了，用一下代码进行替换。</p>
+<p>其中非常重要的一环在于如果没有这个命令，后续建立门的操作就都无效了，这条命令的目的就是调用文件中的数据。如果调用失败，当然会报错了。</p>
+<p>在绘制流式散点图的时候，可以通过以下命令不但绘制出散点图，而且还overlay了一个之前建立好的椭圆型范围的门。</p>
+<pre class="r"><code>ggcyto(fs_comp_clean_trans, aes(x=&quot;FITC.A&quot;,y=&quot;PE.A&quot;)) +
+  geom_hex(bins=256) +
+  geom_gate(gs_pop_get_gate(gs, &quot;flowflust&quot;)) +
+  theme_classic()</code></pre>
+<p>而绘制密度图，则代码如下：</p>
+<pre class="r"><code>ggcyto(fs_comp_clean_trans[[1]], aes(x=&quot;FITC.A&quot;)) +
+  geom_density(fill=&quot;lightgrey&quot;, alpha=0.3) +
+  geom_overlay(fs_comp_clean_tran[[2]], fill=&quot;lightblue&quot;, alpha=0.3) +
+  geom_overlay(fs_comp_clean_tran[[3]], fill=&quot;lightgren&quot;, alpha=0.3) +
+  facet_null() +
+  theme_classic()</code></pre>
+<p>而上述代码所绘制出的图有一个问题在于无法加注图例，因此我的改进方法如下：</p>
+<pre class="r"><code>data1 &lt;- fs_comp_clean_trans[[1]]@exprs
+data2 &lt;- fs_comp_clean_trans[[2]]@exprs
+data3 &lt;- fs_comp_clean_trans[[3]]@exprs
+data1 &lt;- as.data.frame(data1)
+data2 &lt;- as.data.frame(data2)
+data3 &lt;- as.data.frame(data3)
+data1$Type &lt;- &quot;Blank&quot;
+data2$Type &lt;- &quot;FITC-A&quot;
+data3$Type &lt;- &quot;FITC-A+&quot;
+data &lt;- rbind(data1, data2, data3)
+##开始绘图
+ggplot(data, aes(x=data$FITC.A, fill=data$Type)) +
+  geom_density(alpha=0.3) +
+  scale_fill_manual(values=c(&quot;lightgrey&quot;,&quot;lightblue&quot;,&quot;lighgreen&quot;)) +
+  scale_x_logicle() +
+  theme_classic() +
+  theme(legend.position=c(0.8,0.5), legnd.title=element_blank())</code></pre>
+<p>在后期的应用中又发现了一些问题，并在此进行总结。</p>
+<pre class="r"><code>autoplot(fs_comp_clean_trans[[1]], x=&quot;FITC.A&quot;,y=&quot;PE.A&quot;, bins=256) +
+  theme_classic() +
+  ggcyto_par_set(limits=&quot;instrument&quot;) +
+  scale_x_flowjo_biexp() +
+  scale_y_flowjo_biexp() +
+#  geom_vline(xintercept = 451.7652) +
+#  geom_hline(yintercept = 27258.43) +
+  geom_gate(flust.c, colour=&quot;black&quot;) +
+  geom_stats(type = &quot;count&quot;, hjust=-0.5, fill=NA) +
+  geom_text(x=1500,y=1000,label=&quot;Lymph&quot;)</code></pre>
+<p>我们已知FSC和SSC能够进行细胞的分选并用gate进行框选分析。但是应用的过程中，小编发现在流式技术中最经常使用的十字象限并不能有效的显示出来，因为quadGate()的命令和科学计数法的坐标轴不兼容，在坐标轴不为科学计数法的时候，十字象限显示正常，而坐标轴转换成科学计数法时，则不显示十字象限。因此，小编尝试了解决方法并上网冲浪寻找解决办法，但是可惜的是并没有找到有效的解决方法。那么小编采用了土办法，就是在ggplot框架中加了两条直线：geom_vline()和geom_hline()就成功的解决了这个问题（说的很简单，过程并不容易，中间通过openCyto:::.mindensity()的命令自动计算出了数值，并将这个数值输入到vline和hline两条命令里）。并且在调用象限门时，还可以通过geom_stats()命令在四个象限自动显示细胞数/百分比。</p>
+<p>另外加之，在之前的加门的教程中，由于应用的并不多，所以在叙述中简单的带过，在应用中小编用的最多的就是椭圆形的门进行叙述。</p>
+<p>首先以FSC.A为横坐标，SSC.A为纵坐标进行绘制，并框选出需要的位置即中心的坐标值。</p>
+<p>并用所用的荧光通道对SSC.A进行作图，确定在FITC.A中所需要的位置，并用FITC.A对PE.A作图，如图一所示。</p>
+<pre class="r"><code>autoplot(auto_gs[1], &quot;FITC.A&quot;, &quot;PE.A&quot;, gate=&quot;flust.fitc.pe&quot;, bins=156) +
+scale_x_flowjo_biexp() +
+scale_y_flowjo_biexp() +
+theme_classic()</code></pre>
+<p>通过上述命令可以只显示门内的流式散点图。但是在上述代码中需要注意的是在所有的教程中都没有书籍，在autoplot()里一定要加gate=““，如果不加就会报错，而网上所有的教程都没有加，这有可能是由于R及依赖包版本更新的问题。</p>
+  
 </div>
