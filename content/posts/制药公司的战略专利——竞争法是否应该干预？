@@ -1,0 +1,152 @@
+---
+date: 2022-11-13
+image: https://i.postimg.cc/t4GPKh0b/Pharma-Patents.jpg
+tags:
+- reference
+- thesis
+- citation
+title: 制药公司的战略专利——竞争法是否应该干预？
+---
+
+摘要：
+由于 COVID-19 大流行正在影响全世界成千上万人的生活，今天及时获得负担得起的药物的问题已经加剧。根据过去获得治疗危及生命疾病的药物的经验，人们有理由担心获得任何最终开发的疫苗和治疗方法可能会受到专利的阻碍，从而导致价格难以承受。特别是，通常导致高价格的原因之一是制药公司采用的战略专利。虽然这种做法目前被认为是合法的，但本文认为，战略性专利申请需要竞争主管机构早该进行的干预，旨在引起他们对其有害影响的关注。它坚持认为，除了以高药价形式产生的更直接的负面影响外，战略专利通过扼杀原研者和仿制药公司的创新来影响动态竞争。本文概述了当前的战略专利方法，并为竞争法的干预提供了论据。反过来，这将为竞争主管机构调查这种做法并防止其对药品价格和药品创新造成有害影响，以造福于消费者福利提供了可能性。
+
+关键词：战略专利、长青化、药物专利、反竞争效应、仿制药竞争、药物可及性、COVID-19 治疗可及性
+
+介绍：
+随着 COVID-19 大流行席卷全球，成千上万的人迫切需要获得负担得起的药物。根据过去治疗其他危及生命的疾病的经验，人们担心未来可能开发的任何疫苗和治疗方法的获得将受到专利的影响，1导致价格高得无法承受。2然而，高药价问题并不新鲜。早在大流行之前，它就一直在夸大医疗保健预算，并对社会药品的可负担性和可及性构成严重风险。3尽管据称对药物研发的投资激增，但目前的统计数据表明，新的突破性药物的数量正在减少，这一事实进一步加剧了这一问题。4另一方面，含有对现有药物进行修饰的药物数量正在增加，这表明制药公司越来越多地将研究重点放在增量药物开发上，而不是突破性创新。5制药公司提出了导致药品价格高企和日益关注增量创新的各种原因，包括药物发现和开发的复杂性，以及所涉及的昂贵和冗长的监管程序。6虽然这些原因在这方面发挥了重要作用，但制药公司的一些做法在很大程度上促成了这个问题。7特别是，制药公司越来越多地参与战略专利申请，以延迟甚至阻止仿制药竞争。8这些做法引起了欧盟委员会的注意，十多年前在其 2009 年制药行业调查报告中对其进行了讨论。9委员会确定了一系列专利战略，将其描述为旨在“扩大[原创者]专利保护的广度和持续时间” 10以及“延迟或阻止仿制药进入市场”。11这些发现引发了关于这些策略是否可能被视为非法并违反欧盟竞争规则的辩论，同时也是专利法下合理的商业行为。直到今天，还没有就这些做法的合法性或评估它们的有效法律工具达成一致。因此，尽管有确凿的证据表明此类策略可能会阻止仿制药竞争，使原研者能够人为地维持高药价并阻止患者获得更便宜的仿制药，但它们仍然超出了委员会的活动范围。相反，委员会一直专注于更直接的专利相关实践，例如反向支付协议。
+本文认为，制药公司的战略专利申请需要竞争主管机构早该进行的干预。它旨在引起他们对战略专利的有害影响的关注。具体来说，它将对原制药公司传统上提出的论点提出质疑，即竞争法对专利申请实践的干预会降低他们的创新动力。该论文将反驳说，除了文献中广泛探讨的高药价形式的更直接的负面影响，12战略专利还通过扼杀创新影响动态竞争。重要的是，需要说明的是，评估这种做法的影响不仅应关注原研者的创新，还应通过评估其对仿制药公司后续创新的影响，从更广阔的市场视角出发。后一种说法经常被忽视。本文将概述当前认为这种做法合法的战略专利申请方法，并将为竞争法的干预提供论据。反过来，这将为竞争主管机构调查这种做法提供可能性，以防止其对创新和消费者福利产生有害影响。此外，虽然专利法可以提供某些机制来处理战略专利，13这些工具可能并非在所有情况下都有效。因此，正如将进一步解释的那样，竞争法可能是解决战略专利的负面影响的更合适的工具。
+本文将组织如下。它将首先讨论制药行业的复杂结构，重点关注本文的主要参与者：原研药和仿制药公司。它将进一步探索制药公司采用的专利实践，并将定义战略专利的概念。然后，本文将争辩说，后一种策略与专利法和竞争法的基本原理背道而驰，因为它通过削弱原创者和仿制药公司的创新动机来扼杀竞争。最后，它将讨论当前认为这种做法合法的战略专利申请方法，并认为它应该受到竞争法规则的审查，以解决其负面影响。
+
+一. 医药行业的医药创新与仿制药竞争
+
+制药行业的复杂性是独一无二的。它的特点是严格的国家监管，有时还有制药企业和社会的利益竞争。它还涉及多个参与者，包括发起人、15家上市许可机构、仿制药公司、16医生、药房和病人。他们每个人都在将化合物转化为有效且负担得起的药物的漫长而复杂的过程中发挥自己的作用，然后开处方、分配和消费。在这些复杂的关系中，两个关键角色扮演着至关重要的角色。一方面，原创者在开发新的和改进的药物以造福社会方面发挥着重要作用。另一方面，仿制药公司通过提供更便宜的原研药等价物来造福社会，从而降低药品价格并促进获得负担得起的药品。当这两个参与者的利益保持平衡时，社会的利益就会最大化，社会可以获得创新和改进的药物，以及及时获得仿制药。然而，如果天平向其中一个参与者倾斜，那么社会就会失败，因为获得创新或负担得起的药物的机会将不足。因此，无论是医药创新还是仿制药竞争，都必须得到适当的激励和保护。
+而且，医药行业的这两个要素不断相互作用，相互影响深远。尤其是医药创新是医药产业的支柱，其中原创者扮演着重要角色。药物开发过程漫长而复杂，需要大量投资，并承担着相当大的商业风险。17它也受到高度监管，其中包括要求原研者获得指定国家当局的特别授权才能销售药物。只有在能够证明药物安全有效的情况下，才会将此类上市许可授予原研药，而这通常需要漫长而昂贵的临床试验。18
+为了保护这些重大努力和投资，制药公司严重依赖知识产权授予的排他性，尤其是专利。19项专利提供20年的垄断权，在此期间，制药公司享有市场独占权，可以对其产品收取垄断价格。发起人认为，强有力的专利保护对于收回投资以及激励他们进行进一步的创新至关重要。20但是，一旦此类专利保护到期，其他公司可能会开发品牌药物的仿制药，并开始与原研药竞争市场。这被称为通用竞争。仿制药是失去专利保护的品牌药的生物等效版本。21据估计，仿制药进入通常会导致平均 80% 的市场份额损失和 20-30% 的药品价格下降，并且随着每增加一个仿制药进入者，价格会进一步下降，在某些情况下会导致，价格跌幅高达 90%。22仿制药竞争对原研药价格的影响的一个典型例子是礼来公司的价格大幅下降和利润的巨大损失。2001 年保护其重磅炸弹23抗抑郁药百忧解的专利到期，导致其市场损失近 70%，美国年销售额达 24 亿美元。24仿制药竞争的这种影响对社会是有益的，因为它减少了医疗预算的财务压力并增加了药物的可及性。
+
+二. 制药公司的专利战略
+
+如上所述，在保护药物活性化合物的专利（所谓的“基本”或“主要”专利）的有效期内，仿制药竞争被阻止。25这样的基本专利涵盖了活性成分本身，因此为产品提供了最强的保护。因此，仿制药竞争通常只有在基本专利到期后或仿制药公司成功将其无效时才开始。虽然过去制药公司主要通过一项涵盖活性化合物的单一专利来保护其产品26 ，但他们现在越来越多地寻求针对药物27各个方面的额外专利保护，以保护其市场地位。28这种额外的专利通常被称为二级专利。29制药公司可能希望获得二级专利，以保护药物的制造过程、配方和/或特定形式等方面。因此，即使在保护活性化合物的基本专利到期后，一种药物仍可能受到其他二级专利的保护。这可能会导致产品保护范围和长度的延长，尤其是在二级专利的到期日期晚于基础专利的情况下。30尤其是，例如，如果基础专利中公开的生产活性化合物的方法仅足以在实验室中复制该化合物，但不适合大规模商业生产，则可能发生这种情况。31如果发起人能够获得保护如此大规模制造工艺的二级专利，它将阻止仿制药使用该工艺生产其仿制药版本；否则他们将面临侵犯该二级专利的风险。32然而，药物的一个独特特征是活性成分可以使用不同的方法和工艺制造，可以以不同的形式存在或可以以不同的配方使用。因此，当一种活性成分的基本专利到期时，其他公司可以开发这种活性化合物的替代生产方法、形式或配方，并开始与原研公司竞争。33虽然发起人的此类专利策略原则上是合法的，但其中一些可能存在问题。特别是，在专利保护丧失的情况下，原研者可能会进行战略性专利申请，人为地阻止仿制药竞争并扩大其市场垄断。
+
+三. 定义战略专利
+
+欧盟委员会在其行业调查报告中解释说，药物开发过程包括三个主要阶段：（i）研发阶段，以药物投放市场结束；(ii) 从上市到专利到期的时间；(iii) 专利到期后仿制药可以进入市场的时期。35在第二阶段，即药物上市后，原研者寻求从产品中获得最大收入，以便在仿制药竞争开始前收回研发投资并赚取利润。36制药公司也在此阶段寻求延长其市场独占性。
+近年来，制药公司越来越依赖专利制度的战略性使用来对抗仿制药竞争的压力。这种做法通常被这种做法的发起者和支持者称为“生命周期管理”。例如，正如 Burdon 和 Sloper 解释的那样，“[a] 任何生命周期管理策略的一个关键要素……是通过提交有效防止仿制药进入市场的二级专利，将专利保护尽可能延长到基本专利期限之外。市场”。37然而，批评者将这种做法描述为“常青树”，38因为它实质上使专利保护和产品的排他性常青树。39例如，Bansal 等人。解释说，“常青化”是指专利所有者利用法律和相关监管程序来扩大其知识产权垄断的不同方式，特别是在利润丰厚的“重磅炸弹”药物上，很快就已经受专利保护的发明申请变相/巧妙的专利在“母”专利到期之前”。40
+欧盟委员会在对制药行业的调查中发现，已授予和未决申请的专利数量随着药物价值的增加而显着增加，即“重磅药物甚至可以受到多达近 100 个 INN 41特定的EPO 专利捆绑包的保护和申请……，在一个特定的案例中，在所有欧盟成员国中获得了 1,300 项专利和申请”。42委员会还发现，一级专利与二级专利的比例为 1:7，后者“主要涉及配方、工艺和非配方产品……，如盐、多晶型、颗粒、溶剂化物和水合物”。43因此，委员会得出结论认为，“以这种方式最大限度地扩大专利覆盖范围是创建专利网络”，这会影响仿制药“开发盐形式药物的仿制药，结晶或无定形形式”，因为它“将不可避免地侵犯专利（例如，药物的相关盐、结晶或无定形形式的专利）”。44每项此类专利通常都有一个较晚的到期日期，这实际上将市场独占期延长到基础专利到期之后。45此外，大多数保护此类后续修改的专利是所谓的“休眠”专利，即公司无意商业化的专利。46此外，与原始药物相比，此类修改可能对患者提供很少或没有治疗益处。47然而，此类专利使发明人能够为其成功的产品获得最有效、最广泛和最长的保护。48
+二级专利网络越密集，仿制药开发其仿制药等价物就越困难，即使他们知道事实上只有少数专利是有效的并被他们的产品侵犯。49尽管有这些知识，但在引入仿制药之前无法确定是否会出现这种情况，因此，仿制药公司是否会受到禁止销售其仿制药产品的禁令。50因此，这种做法为仿制药制造商进入市场的可能性带来了重大的法律和商业不确定性，从而为原研药提供了可观的竞争优势。51
+本文认为，制药公司对专利制度的这种战略性使用违背了专利和竞争法促进创新以造福社会的共同目标。正如将进一步解释的那样，除了高药价形式的更直接的负面影响外，战略专利还可能通过降低原研者的创新动机和影响仿制药开发替代仿制药产品的能力而损害创新。因此，战略专利可以使发明人通过阻止仿制药竞争来避免竞争压力，而无需进行真正的创新。
+
+*四. 战略专利与专利制度和竞争法的基本原理相矛盾*
+
+在竞争激烈的市场中，公司的成功取决于其经营业绩。52为了通过“提供更好的质量和更广泛的新的和改进的商品和服务的选择”来竞争绩效，53公司必须进行创新。54个州意识到保护创新的重要性，创新被认为是经济增长的主要驱动力，因此制定了各种机制，以确保为创新提供合适的环境。其中包括以专利的形式授予创新成果的产权，以及实施竞争法规则以激发动态竞争。55
+具体而言，专利制度的主要理由之一是鼓励作为经济增长和发展引擎的创新56 。57专利制度通过为专利所有人提供一段时间的专有权作为对他们创新努力的奖励和参与进一步创新的激励来实现这一目标。58因此，知识产权规则，尤其是专利，被视为内部市场上不扭曲竞争的基本要素。59这些专有权被认为是投资研发和创新的必要动力，特别是在研发成本高但复制研发结果的成本微不足道的制药等行业。60与此同时，体现在欧盟竞争法规则和政策中的“创新理论”旨在通过促进市场竞争来刺激创新。61竞争法规则通过防止市场丧失抵押品赎回权和维持市场准入来维持有效竞争，从而保持市场创新。62基本原理是公司通过不断寻求创新来应对竞争压力。63因此，专利法与竞争法相辅相成，一方面现有的竞争对企业造成压力，迫使企业进行创新，即所谓的“大棒”，而另一方面，专利法提供了“胡萝卜”以专有权的形式，从而诱导创新者进行创新。64这两个法律体系被视为“通过创新促进高效市场和长期、动态竞争的互补努力”。65正如欧盟委员会指出的那样，“知识产权和竞争对于促进创新和确保对其进行竞争性利用都是必要的”。66因此，这两部法律具有相同的基本目标，即加强创新以造福消费者。
+重要的是，专利和竞争法的目的不仅在于刺激“先锋”创新者的创新，还旨在促进后续创新。67专利法包含要求发明人披露其发明信息的规定，并规定了实验性使用和强制许可等例外情况，允许第三方访问仍受专利保护的发明。68因此，与先驱创新者一样，专利法中激励创新的原理也适用于后续创新者，平衡了这两类发明人的利益。69同样，竞争法旨在刺激所有类型的创新，包括后续创新。
+另一方面，欧盟竞争法禁止降低“先锋”和后续创新者的创新动力的做法。这是在艺术中体现出来的。102(b) TFEU，禁止包括限制技术发展在内的滥用行为。例如，在阿斯利康一案中，普通法院认为该公司滥用专利制度的做法可能会降低其创新动机，并且是反竞争的。70在Magill 71和微软，72法院认为，知识产权权利人滥用其主导地位，阻碍其潜在竞争对手的创新。最近，欧盟委员会的几项决定也强调了保护创新的重要性。2018 年 1 月，欧盟委员会因高通滥用其在 LTE 74基带芯片组市场的主导地位，对高通处以73 9.97 亿欧元的罚款。75欧盟委员会认为，高通向苹果支付的排他性付款剥夺了竞争对手在价值上竞争的可能性，并剥夺了欧洲消费者真正的选择和创新。76此外，2018 年 7 月，委员会在Google Android谷歌滥用其主导地位，并对该公司处以 43.4 亿欧元的罚款，理由是它对移动设备制造商和网络运营商实施了反竞争限制，以加强其在一般互联网搜索领域的主导地位。77委员会认为，谷歌的限制性做法剥夺了其他公司竞争优势和创新的机会。78最后，委员会在 2017 年发布决定，认为亚马逊滥用其在电子书零售分销市场的主导地位，在与电子书的协议中插入所谓的“平价条款”。 -图书供应商。79它得出的结论是，这些条款有可能降低电子书供应商和零售商的创新动机。80
+这些决定表明，欧盟委员会认识到保护创新的根本重要性。他们证实，能够扼杀创新和减少创新动机的战略可能构成滥用艺术规定的支配地位。102 TFEU。本文认为，除了委员会在上述决定中谴责的做法外，战略专利还可能通过削弱原研者和仿制药公司的创新动机来损害创新，因此应该引起竞争法的关注。
+*战略专利削弱了发起人的创新动力*
+虽然发起公司通常会争辩说，竞争法对其专利实践的干预会降低他们的创新动力，但81这篇文章断言，战略专利本身会降低原作者的积极性。因此，在正常运作的系统中，当保护产品的专利接近到期时，将鼓励发起人进一步创新，以便在市场上推出新产品并保持其竞争地位。然而，通过参与战略专利，发起人的创新动力会减弱，因为它仅通过获得大量二级专利来保护其当前产品免受仿制药竞争，从而享有其垄断地位。因此，当公司从事此类战略性专利申请时，它们只是在保护自己免受竞争法旨在建立的竞争压力。
+坚持这种做法是合法的，发起人认为，强有力的专利保护对于收回他们的投资以及激励他们进行进一步的创新至关重要。82这种立场可能会在约瑟夫熊彼特及其追随者提出的论点中得到一些支持，他们声称，由于垄断增加了创新者的回报，垄断者更倾向于创新。83然而，正如 Lowe 所说：84
+过去几十年的经验证据对熊彼特不利，对肯尼斯·阿罗有利，后者认为，在支持垄断的过程中，熊彼特低估了竞争可以提供的创新激励。垄断者往往希望通过采取任何可以将新进入者拒之门外的措施来保持他们的垄断地位。另一方面，处于来自实际或潜在竞争的竞争压力下的公司不会自满，并且知道发明新产品是他们维持和增加市场份额的最佳策略。
+同样，委员会强调竞争对创新激励的重要性，指出：“企业之间的竞争是经济效率的重要驱动力，包括创新形式的动态效率。如果没有它，占主导地位的企业将缺乏足够的动力来继续创造和传递效率收益。” 85
+来自制药行业的证据证实，战略专利减少了从事真正有价值的创新的动力。在许多情况下，战略性积累的二级专利质量不高，通常是日常研究活动的结果。86例如，在Perindopril 案中，欧盟委员会透露，作为原研公司反仿制药战略的一部分而获得的大多数二级专利被该公司视为“封锁”或“纸质”，其中一些它认为涉及“零创造性” 87和纯粹的编辑任务。88此外，这些后续的药物发明专门在基本专利到期时进行，并且可以按需开发。89在阿斯利康(AstraZeneca ) 中，委员会指出，该公司旨在“[f] 就其重磅产品奥美拉唑“提交一份混合物、用途、配方、新适应症和化学的专利云”，以减缓在特定时间进入仿制药的速度。 ，接近基本专利到期。90这些专利的主要目的是增加仿制药公司进入市场的可能性的不确定性。91因此，虽然这些二级专利中的许多可能微不足道并且可能无效，但发起人追求它们以保护其当前成功的产品免受仿制药竞争。92
+即使一家公司在寻求战略专利的同时继续进行创新，它仍然可以保护自己免受竞争压力，这将迫使公司更快地创新，从而为消费者提供更好的产品和/或获得更便宜的仿制药较早的版本。正如乌尔里希所说：93
+新药从受保护的专利药状态向在公开竞争中生产和销售的仿制药状态转变的放缓，并不仅仅意味着静态效率的丧失，即由于减慢进程。相反，这种放缓还涉及动态效率损失的风险，因为它延长了垄断租金情况的持续时间，从而减少了更快创新的压力。
+根据普通法院在阿斯利康案中声明的基本原理，发起人依靠专利制度扩大其市场垄断地位的做法“可能会降低从事创新的动力，因为它使处于支配地位的公司能够保持其排他性超出立法者所设想的期限”。94法院认为，这种做法“违背公共利益”。95因此，保护​​原创者的垄断企业免受竞争压力并显着降低其从事真正创新的积极性的战略专利实践与专利制度的基本原理背道而驰，对竞争具有显着的负面影响，应该引起竞争法的关注。
+
+*战略专利阻碍仿制药企业的后续创新*
+
+战略专利也对仿制药竞争对手的后续创新产生寒蝉效应，其形式是开发非专利化合物的替代版本。如前所述，保护活性化合物的基本专利到期会促进仿制药竞争。这是因为即使产品仍然受到工艺、特定形式或配方专利的保护，仿制药公司可能会开发生产或配制产品的替代方法并开始与原研者竞争。在原研者缺乏战略积累专利的情况下，仿制药公司通常愿意在基本专利到期后立即进行创新以推出替代仿制药产品。然而，通过追求战略专利，96在其行业调查报告中，委员会引用了其中一位发起人的以下引述：
+许多发起人采用的专利策略的全部目的是消除法律确定性。该策略是在药物的所有领域申请尽可能多的专利，并为仿制药创造一个“雷区”。所有的仿制药都知道，在这个更大的群体中，很少有专利会被他们提议制造的产品有效和侵权，但在发布之前无法确定您的产品不会侵权，您也不会成为临时对象禁令。97
+因此，由于原创者创造了一个不可穿透的专利保护环，98 个仿制药竞争者可能无法开发非专利化合物的替代仿制药版本。委员会在其制药行业调查中披露的一个例子是，一家发起公司提交了“30 多个专利家族，在成员国中与一种产品相关的数百项专利”，其中许多是在之后提交的。产品的介绍。99这影响了几家计划开发原始产品的仿制药并将其推向市场的仿制药公司的意图。100
+因此，除了由于专利保护现有产品和需要获得上市许可而导致进入制药市场的门槛已经很高之外，战略专利进一步提高了这些进入壁垒，使仿制药公司很难克服他们。因此，该策略“可能无需原研公司采取进一步的执法行动，……推迟仿制药的进入，直到专利情况更加明朗，甚至阻止对风险敏感的仿制药公司完全进入”。101因此，原研者的实际或潜在竞争对手无法开发替代仿制药产品这一事实意味着没有人可以进入市场并挑战原研者的垄断地位。这导致相关市场的竞争减弱，并加强了发起人已经占主导地位的地位。正如 Maggiolino 所说，“专利积累……可以作为一种先发制人的进入威慑战略，以保护垄断力量和……通过允许占主导地位的公司继续收取过度竞争的价格来降低消费者福利”。102因此，当大量积累的二次专利“阻止垄断者的竞争对手进行后续创新时，这种策略会阻止整个社会享受……这些进一步的创新”。103虽然竞争法鼓励促进创新的做法，但旨在阻止竞争对手后续创新的做法应引起竞争法的关注。
+
+*在当前方法下，战略专利被认为是合法的*
+
+从上述讨论中可以看出，战略性专利申请违背了专利制度和竞争法的基本原理，因为它损害了创新，使制药公司能够阻止仿制药竞争，从而导致药品价格高企。然而，在欧盟，法院从未应用竞争法规则来谴责采购内部开发的专利。104欧盟的这种方法源于“存在-行使”学说。105正如普通法院解释的那样，虽然欧盟条约“从未明确规定知识产权与竞争法之间的协调”，但它们
+然而，通过指出 [TFEU 第 36 条] 有关禁止成员国之间数量限制的规定不排除对进口、出口或货物的限制，规定了知识产权与货物自由流动原则的协调。除其他外，出于保护工业和商业财产的理由，在过境中是合理的。106
+因此，认为该规定旨在区分成员国立法赋予的保护艺术和知识产权的权利（不受条约规定影响）与行使该权利（可能构成对成员国之间贸易的变相限制。107因此，早在 1974 年就已经认识到，虽然行使知识产权的条件可能属于《艺术. 101 和 102 TFEU，此类权利的存在不受欧盟竞争法的影响。108
+基于此推理，欧盟竞争判例法不涉及与知识产权存在相关的实践，而是侧重于其行使。109具体而言，它规定，为了确立滥用支配地位，仅仅购买专利是不够的，即使它们对市场产生负面影响。110要证明滥用，必须证明非法行使知识产权形式的附加要素，例如滥用专利程序、111无理取闹的诉讼112或非法拒绝许可113。最近的判例法证实了这种方法。在培哚普利, 114委员会调查了一家制药公司的反仿制药战略，其中一个关键要素是积累了阻止专利，其唯一目的是延缓仿制药竞争。虽然已经确定这种做法实际上具有这样的效果，但委员会并没有继续这样做，而是专注于其他两种做法，即从第三方购买替代专利和反向支付协议。委员会指出，一家占主导地位的公司“可以制定保护其商业利益的战略，而不违反条约第 102 条，其中可能特别包括知识产权的战略使用和专利制度”。115因此，委员会在其决定中明确区分了专利战略，即以阻止专利与其他做法（如专利收购和反向支付协议）的积累形式的战略专利。前一种策略被认为是合法的，而后者则被认为是反竞争的。
+一些评论者支持目前的战略专利方法，认为专利法的内部机制应该处理战略专利，如果这种做法符合其规则和目标，则必须被认为是合法的。116专利法通过授予发明人排除他人使用其发明作为对他们的技能、创造性努力和投资的奖励的权利来促进创新。117还有人认为，从专利法的角度来看，排除是基于一项还是数千项专利无关紧要，重要的是它们保护的创新价值。118因此，人们认为强有力的专利保护可以促进事前创新的激励措施和“围绕核心发明申请专利增加了保护有效的可能性以及收回事先投资的可能性”。119因此，不能滥用专利制度来寻求对发明的最佳保护，120从而围绕一种活性成分获得多项二级专利以保护它。他们解释说，在这种情况下，必须由专利法而非竞争法来决定专利授权问题。121一旦专利法确定该发明值得保护，即它符合可专利性标准，竞争法就不应质疑该决定。122
+当前方法的支持者进一步拒绝了委员会在其部门调查报告中提出的建议，即防止仿制药竞争的意图对于确定专利实践是否是滥用可能很重要。123有人认为，占主导地位的公司排除的意图不能是决定性的，因为排除效应是专利的本质，因此“依靠专利收回投资的创新者必然会采取排除进入的策略”。124人们认为，就竞争法而言，“排除权”赋予专利权人不与自己竞争的权利。125即使通过从市场上移除竞争专利、积累它们并保持它们处于休眠状态，而不是允许其他人访问这些专利，情况也会如此。126因此，由于欧盟法律明确承认排除能力是专利特定客体的一部分，因此战略性专利申请“既不非法也不反竞争”，127并且不受第 3 条的约束。102 TFEU 入侵。128有人认为，为了发现滥用行为，必须有一个“附加因素”，例如专利局的欺诈行为。129根据这一论点，其他作者认为，这种做法本身不应成为竞争法的关注点，除非它与一些额外的反竞争做法相结合，例如捆绑和捆绑或强制性一揽子许可。130
+因此，在目前的做法下，为阻止仿制药竞争而采购内部开发的专利被认为是一种合法的做法。然而，正如上面所讨论的，专利制度被战略性地用于人为地阻止仿制药竞争并阻止更便宜的仿制药的及时到来。这反过来又允许制药公司对药品收取过高的价格，从而损害消费者的福利。而且，虽然有些人主张艺术范围的延伸。102 TFEU 对专利实践的应用可能对创新产生重大的负面影响，131本文前面曾指出，事实上，这种做法可能会通过削弱创新来扼杀动态竞争，从而使占主导地位的公司能够加强其垄断力量。
+
+*战略专利应受到竞争法规则的审查*
+
+考虑到对药品价格和创新的负面影响，战略专利提出了一个关键问题：它是否应该免受任何竞争法干预，或者是否存在任何可能引起竞争法关注的情况？如上所述，战略专利的传统方法基本上阻止了任何竞争法的参与。这一立场是基于几个相关的论点。人们认为，竞争法只应在知识产权行使阶段进行干预，不应仅仅关注其存在。此外，有人认为战略专利是合法的，因为它符合专利法，并且内部专利法机制应该控制这种做法。因此，在没有任何其他因素的情况下，132这种方法有效地防止了与战略专利相关的任何竞争执法行动。然而，正如将进一步讨论的那样，竞争主管机构可能会依据欧盟竞争法的规则和原则来调查这种做法。
+因此，反对竞争法监督战略专利的第一组论据坚定地基于“存在-行使”二分法。然而，虽然传统的战略专利方法认为仅仅采购专利不能违反竞争法，但阿斯利康的案例可能会支持不同的观点。具体来说，阿斯利康涉及该公司的两项滥用行为，包括向专利局提供误导性信息，以通过补充保护证书 (SPC) 的形式延长其专利权（第一次滥用）；以及撤销其阻止仿制药依赖原研药数据的上市许可（第二次滥用）。在评估阿斯利康与第一次滥用相关的行为时，法院驳回了该公司的论点，即为了发现滥用，必须行使知识产权，并指出这种权利的存在也可能限制竞争。133普通法院在这方面指出：
+[它] 驳回了申请人的论点，即认定滥用支配地位需要强制执行因误导性陈述而获得的专有权……。企业仅仅拥有专有权通常会导致竞争对手远离，因为公共法规要求他们尊重该专有权。134
+法院得出结论，如果不是这样，它将倾向于适用艺术。102 TFEU 以竞争者侵犯占主导地位的公司的知识产权为条件。135这一发现意义重大，因为它基本上允许委员会克服“存在-行使”原则，因此可能允许在这种做法中进行执法活动。136
+关于第二组反对竞争法参与战略专利的论点，如上所述，一些作者认为这种做法是合法的，因为它符合专利法，并且内部专利法机制应该控制这种做法，而不是竞争法的外部规则。这些论点虽然合理，但不应阻止竞争主管机构调查战略专利。首先，欧洲目前的专利制度允许并且实际上鼓励发起人获得二级专利，因为其可专利性标准低。虽然许多此类专利可能是休眠专利，与现有药物相比没有治疗益处，但它们可能被制药公司战略性地用于防止仿制药竞争。尽管如此，专利制度无法解决这个问题，因为它不控制专利权人的意图，不包含使用专利的要求，也没有义务专利权人证明其后续发明比对患者更好。现有产品（即它只要求发明是新的、非显而易见的，而不是优越的）。虽然其中一种选择可能是加强这些可专利性标准，这可能会减少二级专利的数量，但这可能无法完全解决问题。这是因为制药公司如果满足这些可专利性要求，仍然可以获得后续药物发明的专利。此外，专利性标准低的司法管辖区不太可能提高标准，因为这将违背他们为鼓励药物创新而首先设定低标准的政策目标。最后，加强创造性要求可能会产生不利影响，因为在某些情况下，制药公司可能会选择依赖商业秘密，这将导致许多发明仍未公开。因此，本文认为，虽然专利制度不足以解决战略专利问题，但竞争法可能是处理这种做法的更合适的工具。因为在某些情况下，制药公司可能会选择依赖商业秘密，这将导致许多发明未公开。因此，本文认为，虽然专利制度不足以解决战略专利问题，但竞争法可能是处理这种做法的更合适的工具。因为在某些情况下，制药公司可能会选择依赖商业秘密，这将导致许多发明未公开。因此，本文认为，虽然专利制度不足以解决战略专利问题，但竞争法可能是处理这种做法的更合适的工具。
+其次，关于这种做法在专利法下的合法性，欧盟竞争法早已承认“第[102 TFEU]条下的滥用行为的非法性与其是否遵守其他法律规则无关”和“在大多数情况下，滥用支配地位包括在竞争法以外的其他法律分支下合法的行为”。137因此，战略专利在专利法下是合法的这一事实不应保护这种做法免受竞争法的审查。138此外，虽然专利确实提供了排除他人使用发明的权利，但这并不意味着专利制度可以被占主导地位的公司用作维持和加强其垄断的工具。139正如 Ullrich 所言，“专利制度是基于动态竞争的理念，而不是基于竞争的理念，以获取涵盖整个市场的真正垄断，即使只是暂时的”。140换言之，一旦占主导地位的公司采购专利成为扩大垄断和损害竞争的手段，竞争主管机构就必须进行干预。141
+基于这些在欧盟判例法中发展起来的原则，本文认为战略专利应受到竞争法规则的审查。考虑到其显着的负面影响，竞争主管机构不仅应有可能调查与行使知识产权有关的做法，还应调查基于其存在的策略，即使它们在专利法下被认为是合法的。据信，本文提出的方法将消除仿制药竞争的人为障碍，从而促进获得负担得起的药物。
+
+*五.结论*
+
+专利赋予其所有者在有限年限内禁止他人使用其发明的合法权利，以换取向公众披露该发明。保护期内，业主可收回研发投入；这既是对创新的奖励，也是对从事进一步创新活动的激励。专利保护对制药行业尤为重要。由于药物的开发非常昂贵且耗时，制药公司需要足够的保护来收回投资并赚取利润，这反过来又可以为进一步的研发提供资金。然而，一些制药公司可能将专利制度用于不同的目的，即 他们获得了许多二级专利，这些专利围绕其成功的产品创建了多层保护，以避免在优点上进行竞争。这种战略性专利使制药公司能够加强其垄断地位，从而继续收取高昂的药品价格。此外，本文认为，这种做法违背了旨在激励创新的专利和竞争法的共同目标，因为它降低了对原创者创新的激励，损害了仿制药公司的后续创新，并扰乱了两者之间脆弱的平衡。专利垄断和竞争。因此，本文提出，虽然目前战略专利被认为是一种合法的做法，但它应该引起欧盟委员会和国家竞争主管机构的注意。基于欧盟竞争法制定的原则，有人认为战略性专利应受到竞争法规则的审查。本文提出的方法将允许竞争主管机构调查战略专利，防止其对竞争的负面影响和对消费者福利的损害。
+
+*Reference*
+
+1. Abud MJ, Hall B, Helmers C. An empirical analysis of primary and secondary pharmaceutical patents in Chile. PLoS ONE. 2015;10(4):e0124257. doi: 10.1371/journal.pone.0124257. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+2. Anderman S, Ezrachi A. Intellectual property and competition law: new frontiers. Oxford: OUP; 2011. [Google Scholar]
+3. Anderman S, Schmidt H. EC competition policy and IPRs. In: Anderman S, editor. The interface between intellectual property rights and competition policy. Cambridge: Cambridge University Press; 2007. [Google Scholar]
+4. Bansal IS, Sahu D, Bakshi G, Singh S. Evergreening – a controversial issue in pharma milieu. J Intellect Prop Rights. 2009;14:299. [Google Scholar]
+5. Berman A, Lee T, Pan A, Rizvi Z, Thomas A (2017) Curbing unfair drug prices, a primer for states. Yale Global Health Justice Partnership Policy Paper
+6. Burdon M, Sloper K. The art of using secondary patents to improve protection. J Med Mark. 2003;3:226. doi: 10.1057/palgrave.jmm.5040125. [CrossRef] [Google Scholar]
+7. Cheng J. An antitrust analysis of product hopping in the pharmaceutical industry. Colum Law Rev. 2008;108(6):1471. [Google Scholar]
+8. Commission on Intellectual Property Rights (2002) Integrating intellectual property rights and development policy. http://www.iprcommission.org/papers/pdfs/final_report/CIPRfullfinal.pdf. Accessed 30 March 2020
+9. Correa CM (2011) Pharmaceutical innovation, incremental patenting and compulsory licensing. South Centre, Research Papers, vol 41, p 2
+10. Correa CM (2015) Guidelines for pharmaceutical patent examination: examining pharmaceutical patents from a public health perspective. UNDP. http://www.undp.org/content/dam/undp/library/HIV-AIDS/UNDP_patents_final_web_2.pdf. Accessed 30 March 2020
+11. DiMasi JA, Grabowski HG, Hansen RW. The price of innovation: new estimates of drug development costs. J Health Econ. 2003;22(2):151. doi: 10.1016/S0167-6296(02)00126-1. [PubMed] [CrossRef] [Google Scholar]
+12. EFPIA (2018) The pharmaceutical industry in figures. Key Data 2018. https://efpia.eu/media/361960/efpia-pharmafigures2018_v07-hq.pdf. Accessed 20 March 2020
+13. Eisenberg RS. Pharma’s nonobvious problem. Lewis Clark Law Rev. 2008;12(2):375. [Google Scholar]
+14. European Commission (2009) Executive summary of the pharmaceutical sector inquiry report. http://ec.europa.eu/competition/sectors/pharmaceuticals/inquiry/communication_en.pdf. Accessed 20 March 2020
+15. European Commission (2009) Guidance on the Commission’s enforcement priorities in applying Article 82 of the EC Treaty to abusive exclusionary conduct by dominant undertakings. 2009/C 45/02
+16. European Commission (2009) Pharmaceutical sector inquiry final report. http://ec.europa.eu/competition/sectors/pharmaceuticals/inquiry/staff_working_paper_part1.pdf. Accessed 30 March 2020
+17. European Commission (2014) Guidelines on the application of Article 101 Treaty on the Functioning of the EU to technology transfer agreements. 2014/C 89/03
+18. European Commission (2019) Report on competition policy 2018. Brussels, COM, p 339
+19. FDA (2007) Guidance for industry. ANDAs: pharmaceutical solid polymorphism: chemistry, manufacturing, and controls information. https://www.fda.gov/downloads/drugs/guidances/ucm072866.pdf. Accessed 30 March 2020
+20. FTC (2003) To promote innovation – the proper balance of competition and patent law and policy. https://www.ftc.gov/reports/promote-innovation-proper-balance-competition-patent-law-policy. Accessed 20 March 2020
+21. FTC (2011) Authorized generic drugs: short-term effects and long-term impact. https://www.ftc.gov/policy/public-comments/2014/04/initiative-223. Accessed 30 March 2020
+22. Gilbert RJ. Patents, sleeping patents, and entry deterrence. J Reprints Antitrust Law Econ. 1987;17:205. [Google Scholar]
+23. Granstrand O, Tietze F (2015) IP strategies and policies for and against evergreening. Centre for Technology Management working paper series ISSN 2058-8887 No. 1
+24. Gurgula O. Strategic accumulation of patents in the pharmaceutical industry and patent thickets in complex technologies – two different concepts sharing similar features. IIC. 2017;48(4):385. doi: 10.1007/s40319-017-0551-8. [CrossRef] [Google Scholar]
+25. Gurgula O (2019) The “obvious to try” method of addressing strategic patenting: how developing countries can utilise patent law to facilitate access to medicines. The South Centre, Policy Brief 59. https://www.southcentre.int/policy-brief-59-april-2019/. Accessed 30 March 2020
+26. Hemphill S, Sampat B. When do generics challenge drug patents? J Empir Legal Stud. 2011;8(4):613. doi: 10.1111/j.1740-1461.2011.01235.x. [CrossRef] [Google Scholar]
+27. Hettinger EC. Justifying intellectual property rights. Philos Public Aff. 1989;18:31. [Google Scholar]
+28. Ho CH. Should all drugs be patentable? A comparative perspective. Vanderbilt J Entertain Technol Law. 2015;17(2):295. [Google Scholar]
+29. Hovenkamp H, Janis MD, Lemley MA, Leslie CR, Carrier MA (2016) IP and antitrust: an analysis of antitrust principles applied to intellectual property law. Wolters Kluwer Legal & Regulatory US
+30. Hubbard T, Love J. A new trade framework for global healthcare R&D. PLoS Biol. 2004 doi: 10.1371/journal.pbio.0020052. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+31. IMAK (2018) Overpatented, overpriced: how excessive pharmaceutical patenting is extending monopolies and driving up drug prices. http://www.i-mak.org/wp-content/uploads/2018/08/I-MAK-Overpatented-Overpriced-Report.pdf. Accessed 30 March 2020
+32. Jacob R. Patent thickets: a paper for the European Patent Office Economic and Scientific Advisory Board Meeting. J Intellect Prop Law Pract. 2013;8(3):203. doi: 10.1093/jiplp/jps213. [CrossRef] [Google Scholar]
+33. Kapczynski A, Park C, Sampat B. Polymorphs and prodrugs and salts (oh my!): an empirical analysis of “secondary” pharmaceutical patents. PLoS ONE. 2012;7(12):e49470. doi: 10.1371/journal.pone.0049470. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+34. Kesselheim AS. Intellectual property policy in the pharmaceutical sciences: the effect of inappropriate patents and market exclusivity extensions on the health care system. AAPS J. 2007;9(3):E306. doi: 10.1208/aapsj0903033. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+35. Kesselheim AS, Avorn J, Sarpatwari A. The high cost of prescription drugs in the United States origins and prospects for reform. JAMA. 2016;316(8):858. doi: 10.1001/jama.2016.11237. [PubMed] [CrossRef] [Google Scholar]
+36. Keyhani S, Diener-West M, Powe N. Do drug prices reflect development time and government investment? Med Care. 2005;43(8):753–763. doi: 10.1097/01.mlr.0000170401.17243.53. [PubMed] [CrossRef] [Google Scholar]
+37. Kjølbye L. Article 82 EC as remedy to patent system imperfections: fighting fire with fire? World Compet. 2009;32(2):163. [Google Scholar]
+38. Lianos I (2016) Competition law and intellectual property rights: promoting innovation. https://ssrn.com/abstract=2863814. Accessed 30 March 2020
+39. Light DW, Lexchin JR. Pharmaceutical R&D – what do we get for all that money? BMJ. 2012;345(7869):22. [PubMed] [Google Scholar]
+40. Lowe P (2008) Competition and innovation policy. Glob Compet Policy 3
+41. Machlup F, Penrose E. The patent controversy in the nineteenth century. J Econ Hist. 1950;10:1. doi: 10.1017/S0022050700055893. [CrossRef] [Google Scholar]
+42. Maggiolino M. Intellectual property and antitrust: a comparative economic analysis of US and EU law. Cheltenham: Edward Elgar Publishing; 2011. [Google Scholar]
+43. Mancini DP (2020) Covid-19 drugs could be made for $1 per day, say academics. FT https://www.ft.com/content/e72d0ed3-11c7-43f6-a5e4-53e446f1e5a2. Accessed 30 May 2020
+44. Morten C, Moss A (2020) Could a patent get in between you and a Covid-19 test? Yes. The Guardian. https://www.theguardian.com/commentisfree/2020/may/20/coronavirus-patents-testing-us-senate. Accessed 30 May 2020
+45. Myers SB. A healthy solution for patients and patents: how India’s legal victory against a pharmaceutical giant reconciles human rights with intellectual property rights. Vand J Entertain Technol Law. 2008;10:763. [Google Scholar]
+46. OECD (2007) Innovation and growth rationale for an innovation strategy. https://www.oecd.org/sti/inno/39374789.pdf. Accessed 30 March 2020
+47. Pammolli F, Magazzini L, Riccaboni M. The productivity crisis in pharmaceutical R&D. Nat Rev Drug Discov. 2011;10(6):428. doi: 10.1038/nrd3405. [PubMed] [CrossRef] [Google Scholar]
+48. PHARMA (2015) The high cost of inventing new drugs – and of not inventing them. http://www.fromhopetocures.org/the-high-cost-of-inventing-new-drugs-and-of-not-inventing-them. Accessed 30 March 2020
+49. Prabhala A, Hoen E (2020) We’ll find a treatment for coronavirus – but drug companies will decide who gets it. The Guardian. https://www.theguardian.com/commentisfree/2020/apr/15/coronavirus-treatment-drug-companies. Accessed 30 May 2020
+50. Report of the Attorney General’s National Committee to Study the Antitrust Laws (1955) J Pat Off Soc 37:331
+51. Roin BN. Unpatentable drugs and the standards of patentability. Tex Law Rev. 2009;87:503. [Google Scholar]
+52. Scannell JW, Blanckley A, Boldon H, Warrington B. Diagnosing the decline in pharmaceutical R&D efficiency. Nat Rev. 2012;11(3):191. [PubMed] [Google Scholar]
+53. Schumpeter J (1976) Capitalism, socialism and democracy. George Allen & Unwin, USA
+54. Siegel NB. Patent monopoly and Sherman Act monopolization. J Pat Off Soc. 1967;49:67. [Google Scholar]
+55. Srivastava D. The food and drug administration and patent law at a crossroads: the listing of polymorph patents as a barrier to generic drug entry. Food Drug Law J. 2004;59:339. [PubMed] [Google Scholar]
+56. Straus J. Patent application obstacle for innovation and abuse of dominant market position under Article 102 TFEU? J Eur Compet Law Pract. 2010;1:189. doi: 10.1093/jeclap/lpq011. [CrossRef] [Google Scholar]
+57. Summary of Commission Decision of 4 May 2017 relating to a proceeding under Article 102 of the Treaty on the Functioning of the European Union and Article 54 of the EEA Agreement (Case AT.40153 — E-Book MFNS and related matters)
+58. Summary of Commission Decision of 24 January 2018 relating to a proceeding under Article 102 of the Treaty on the Functioning of the European Union and Article 54 of the EEA Agreement (Case AT.40220 — Qualcomm (Exclusivity Payments))
+59. The Public Citizen (2020) The real story of Remdesivir. Taxpayers are spending at least $70.5 million to develop the drug. https://www.citizen.org/article/the-real-story-of-remdesivir/. Accessed 30 May 2020
+60. Ullrich H. Strategic patenting by the pharmaceutical industry: towards a concept of abusive practices of protection. In: Drexl J, Lee N, editors. Pharmaceutical innovation, competition and patent law. A trilateral perspective. Cheltenham: Edward Elgar Publishing; 2013. pp. 265–266. [Google Scholar]
+61. UNCTAD (2015) The role of competition in the pharmaceutical sector and its benefits for consumers. TD/RBP/CONF.8/3
+62. Whish R, Balley D. Competition law. 7. Oxford: OUP; 2015. [Google Scholar]
+
+<cite>本文翻译自PubMed库的Gurgula O. Strategic Patenting by Pharmaceutical Companies - Should Competition Law Intervene? IIC Int Rev Ind Prop Copyr Law. 2020;51(9):1062-1085. doi: 10.1007/s40319-020-00985-0. Epub 2020 Oct 28. PMID: 33132411; PMCID: PMC7592140. </cite>
