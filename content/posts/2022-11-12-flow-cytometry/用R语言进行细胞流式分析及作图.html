@@ -117,6 +117,103 @@ ggcyto(fs_comp_clean_trans,aes(x=&quot;FITC.A&quot;,y=&quot;PE.A&quot;)) +
     scale_x_flowjo_biexp() +
     theme_classic()</code></pre>
 <p><img src="https://i.postimg.cc/wBvn0Gry/1-3.png" width="672" /></p>
+<p>在分析及绘图中仍然存在一些问题，有一些是依赖包自身的问题，有一些是R语言版本的问题，小编会在接下来的文章中陆续解决这些问题。</p>
+<p>比如说，流式的原始数据不可能只有一个，我们需要将空白、阴性对照、阳性对照及实验组同时加载进来，同时进行分析处理。</p>
+<p>在整个的flowSet中需要输入以上命令进行查看其中某一个数据。其中有几项命令是需要用空白去补偿和转换的，则需要调用blank的文件。</p>
+<pre class="r"><code>myfiles &lt;- list.files(path=&quot;/mnt/chromeos/MyFiles/Downloads/debian/flow_Cytometry/Sample/&quot;, pattern=&quot;.FCS&quot;)
+fs &lt;- read.flowSet(myfiles[1:3], path=&quot;/mnt/chromeos/MyFiles/Downloads/debian/flow_Cytometry/Sample/&quot;, alter.names = TRUE)
+fs[[1]]</code></pre>
+<pre><code>## flowFrame object &#39;0001.FCS&#39;
+## with 500000 cells and 11 observables:
+##                name   desc     range  minRange  maxRange
+## $P1           FSC.A     NA    262144       0.0    262143
+## $P2           SSC.A     NA    262144    -111.0    262143
+## $P3          FITC.A   IFNa    262144    -111.0    262143
+## $P4            PE.A  CD123    262144    -111.0    262143
+## $P5   PerCP.Cy5.5.A  MHCII    262144    -111.0    262143
+## $P6        PE.Cy7.A   CD14    262144    -111.0    262143
+## $P7           APC.A  CD11c    262144     -80.6    262143
+## $P8       APC.Cy7.A    IL6    262144    -111.0    262143
+## $P9  Pacific.Blue.A   IL12    262144    -111.0    262143
+## $P10     Alex.700.A   TNFa    262144     -75.4    262143
+## $P11           Time     NA    262144       0.0    262143
+## 176 keywords are stored in the &#39;description&#39; slot</code></pre>
+<pre class="r"><code>spillover(fs[[1]])</code></pre>
+<pre><code>## $SPILL
+##      FITC.A PE.A PerCP.Cy5.5.A PE.Cy7.A APC.A APC.Cy7.A Pacific.Blue.A
+## [1,]      1    0             0        0     0         0              0
+## [2,]      0    1             0        0     0         0              0
+## [3,]      0    0             1        0     0         0              0
+## [4,]      0    0             0        1     0         0              0
+## [5,]      0    0             0        0     1         0              0
+## [6,]      0    0             0        0     0         1              0
+## [7,]      0    0             0        0     0         0              1
+## [8,]      0    0             0        0     0         0              0
+##      Alex.700.A
+## [1,]          0
+## [2,]          0
+## [3,]          0
+## [4,]          0
+## [5,]          0
+## [6,]          0
+## [7,]          0
+## [8,]          1
+## 
+## $spillover
+## NULL
+## 
+## $`$SPILLOVER`
+## NULL</code></pre>
+<pre class="r"><code>fs_comp &lt;- compensate(fs[[1]], spillover(fs[[1]])$SPILL)
+##或者用以下命令
+comp &lt;- fsApply(fs, function(x)spillover(x)[[1]], simplify=FALSE)
+fs_comp &lt;- compensate(fs, comp)
+##其中还有转换命令与之不同
+trans &lt;- estimateLogicle(fs_comp[[1]], colnames(fs_comp[[1]][,5:10]))
+fs_comp_trans &lt;- transform(fs_comp, trans)</code></pre>
+<p>其中需要再提及的是一般而言，在这两种命令后输出的都是flowSet格式的数据，其方便的地方在于后续建立门（gate）</p>
+<p>若其中fs_comp_trans不为flowSet格式，即不是单一的fcs文件，则可以建立门。若为单一文件则会出现报错。</p>
+<p>另一方面，在多个文件进行绘图时也会出现一些问题，在于绘图过程中，会自动显示facet框架，其中会显示文件名+后缀的情况。这种需要我们进行手动的编辑</p>
+<p>我们需要修改他们的名字</p>
+<pre class="r"><code>##用以下命令修改名字
+fs_comp_trans@phenoData@data$name[1] &lt;- &quot;Blank&quot;
+pData(fs_comp_trans)</code></pre>
+<pre><code>##              name
+## 0001.FCS    Blank
+## 0002.FCS 0002.FCS
+## 0003.FCS 0003.FCS</code></pre>
+<p>这个细节在作图中其实是至关重要的。</p>
+<p>在细胞流式技术中，最关键的地方在于门（gate）的建立，若门的范围选择的不对的话，显示的荧光强度和细胞种类都会出现问题</p>
+<pre class="r"><code>rg1 &lt;- rectangleGate(&quot;FSC.A&quot;=c(25000, Inf), filterId = &quot;NoneDebris&quot;)
+gs_pop_add(gs, rg1, parent = &quot;root&quot;)</code></pre>
+<pre><code>## [1] 2</code></pre>
+<pre class="r"><code>recompute(gs)
+gs_get_pop_paths(gs)</code></pre>
+<pre><code>## [1] &quot;root&quot;        &quot;/NoneDebris&quot;</code></pre>
+<pre class="r"><code>ggcyto(fs_comp_trans[[1]], aes(x=&quot;FSC.A&quot;, y=&quot;SSC.A&quot;)) +
+    geom_hex(bins=256) +
+    geom_gate(gs_pop_get_gate(gs, &quot;NoneDebris&quot;)) +
+    theme_classic()</code></pre>
+<p><img src="https://i.postimg.cc/gJGRLZb3/download.png" width="672" /></p>
+<pre class="r"><code>gs_pop_get_stats(gs)</code></pre>
+<pre><code>##      sample         pop  count
+## 1: 0001.FCS        root 500000
+## 2: 0001.FCS /NoneDebris 361522
+## 3: 0002.FCS        root 487971
+## 4: 0002.FCS /NoneDebris 400537
+## 5: 0003.FCS        root 401831
+## 6: 0003.FCS /NoneDebris 287182</code></pre>
+<p>其中存在一些问题，在于若是设置了范围为25000-无穷，则有一些问题在于在下图左上角的图不知道准确数值，于是修改代码改的更智能。</p>
+<pre class="r"><code>thisData &lt;- gs_pop_get_data(gs)
+nonDebris_gate &lt;- fsApply(thisData, function(fr) openCyto:::.mindensity(fr, channels = &quot;FSC.A&quot;))
+gs_pop_add(gs, nonDebris_gate, parent = &quot;root&quot;, name = &quot;nonDebris&quot;)</code></pre>
+<pre><code>## [1] 3</code></pre>
+<pre class="r"><code>recompute(gs)
+ggcyto(fs_comp_trans[[1]], aes(x=&quot;FSC.A&quot;, y=&quot;SSC.A&quot;)) +
+    geom_hex(bins=256) +
+    geom_gate(gs_pop_get_gate(gs, &quot;NoneDebris&quot;)) +
+    theme_classic()</code></pre>
+<p><img src="https://i.postimg.cc/gjX0xzjv/download-1.png" width="672" /></p>
 <p>在之前的介绍中，已经基本上完成了流式依赖包的大部分也是主要功能。由于R语言的绘图以及自动化功能非常强大，所以正常而言在flowCore、openCyto和ggcyto依赖包解决不了的问题可以通过ggplot2进行解决。</p>
 <p>出现了一个getData()的命令，而在新版本的R语言中，该命令已经不存在了，用一下代码进行替换。</p>
 <p>其中非常重要的一环在于如果没有这个命令，后续建立门的操作就都无效了，这条命令的目的就是调用文件中的数据。如果调用失败，当然会报错了。</p>
@@ -161,14 +258,18 @@ ggplot(data, aes(x=data$FITC.A, fill=data$Type)) +
   geom_gate(flust.c, colour=&quot;black&quot;) +
   geom_stats(type = &quot;count&quot;, hjust=-0.5, fill=NA) +
   geom_text(x=1500,y=1000,label=&quot;Lymph&quot;)</code></pre>
+<p><img src="https://i.postimg.cc/6pRTPtv1/640.png" width="672" /></p>
 <p>我们已知FSC和SSC能够进行细胞的分选并用gate进行框选分析。但是应用的过程中，小编发现在流式技术中最经常使用的十字象限并不能有效的显示出来，因为quadGate()的命令和科学计数法的坐标轴不兼容，在坐标轴不为科学计数法的时候，十字象限显示正常，而坐标轴转换成科学计数法时，则不显示十字象限。因此，小编尝试了解决方法并上网冲浪寻找解决办法，但是可惜的是并没有找到有效的解决方法。那么小编采用了土办法，就是在ggplot框架中加了两条直线：geom_vline()和geom_hline()就成功的解决了这个问题（说的很简单，过程并不容易，中间通过openCyto:::.mindensity()的命令自动计算出了数值，并将这个数值输入到vline和hline两条命令里）。并且在调用象限门时，还可以通过geom_stats()命令在四个象限自动显示细胞数/百分比。</p>
 <p>另外加之，在之前的加门的教程中，由于应用的并不多，所以在叙述中简单的带过，在应用中小编用的最多的就是椭圆形的门进行叙述。</p>
 <p>首先以FSC.A为横坐标，SSC.A为纵坐标进行绘制，并框选出需要的位置即中心的坐标值。</p>
+<p><img src="https://i.postimg.cc/VNWvYg4q/641.png" width="672" /></p>
 <p>并用所用的荧光通道对SSC.A进行作图，确定在FITC.A中所需要的位置，并用FITC.A对PE.A作图，如图一所示。</p>
+<p><img src="https://i.postimg.cc/dtgLnLLy/6402.png" width="672" /></p>
 <pre class="r"><code>autoplot(auto_gs[1], &quot;FITC.A&quot;, &quot;PE.A&quot;, gate=&quot;flust.fitc.pe&quot;, bins=156) +
 scale_x_flowjo_biexp() +
 scale_y_flowjo_biexp() +
 theme_classic()</code></pre>
+<p><img src="https://i.postimg.cc/rynd0hTg/643.png" width="672" /></p>
 <p>通过上述命令可以只显示门内的流式散点图。但是在上述代码中需要注意的是在所有的教程中都没有书籍，在autoplot()里一定要加gate=““，如果不加就会报错，而网上所有的教程都没有加，这有可能是由于R及依赖包版本更新的问题。</p>
   
 </div>
