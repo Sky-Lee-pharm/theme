@@ -8,7 +8,7 @@ tag:
 title: Introduction to Good clinical practice (GCP)
 ---
 
-**什么是Good Clinical Practice (GCP)？**
+**什么是Good Clinical Practice (GCP) ？**
 
 GCP 是一种道德和科学标准，规范进行涉及人类受试者的生物医学和行为研究。这个指导的目标是提供欧盟、日本、美国、加拿大和新西兰的一个统一的标准来促进他们相互接受来自临床监管部门的数据。
     目前，GCP的系统已经部分更新了，针对过去受试人员遭受严重虐待的事件进行揭露。这些事件的曝光是为了保护受试人员的法规和道德准则的制定提供了很大的动力。
