@@ -1,7 +1,7 @@
 ---
 Date: 2023-08-26
 image: https://i.postimg.cc/j5XCnPtY/00-01.jpg
-tag:
+tags:
 - regulations
 - ethic guidlines
 - ICH-GCP
