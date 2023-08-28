@@ -662,7 +662,7 @@ ICH GCP 要求进行知情同意讨论的人员签署该表格。
 
 **知情告知书模板下载**
 
-1. [知情同意书·知情告知页 - 四川省人民医院](https://github.com/Sky-Lee-pharm/Files-downloads/blob/main/102007171.doc)
-2. [研究知情同意书简表 - Boston Children's Hospital](https://github.com/Sky-Lee-pharm/Files-downloads/blob/main/april-2020-short-form-chinese.pdf)
-3. [知情同意书 - 上海交通大学医学院附属新华医院](https://github.com/Sky-Lee-pharm/Files-downloads/blob/main/bmjopen-2021-March-11-3--inline-supplementary-material-1.pdf)
-4. [Informed Consent Document Template and Guidelines](https://github.com/Sky-Lee-pharm/Files-downloads/blob/main/nia-informed-consent-template.docx)
+1. [知情同意书·知情告知页 - 四川省人民医院](blob:https://github.com/a2579771-6933-4c9c-b62e-0b8c48b44178)
+2. [研究知情同意书简表 - Boston Children's Hospital](blob:https://github.com/2936ee91-0f5d-45fa-a552-20e01185a8b1)
+3. [知情同意书 - 上海交通大学医学院附属新华医院](blob:https://github.com/8a110bc3-c26f-4a91-8f26-6fc83f3ffca9)
+4. [Informed Consent Document Template and Guidelines](blob:https://github.com/11870811-4ceb-4e8c-8fa4-c942610c7d03)
