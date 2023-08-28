@@ -659,3 +659,10 @@ ICH GCP 要求进行知情同意讨论的人员签署该表格。
 > 参与研究的激励价值不应太高，以免被视为对个人参与决定产生不当影响。
 >
 > 重要的是要确保仔细地进行获得人类参与者知情同意的过程，并密切关注每一个细节。不遵守知情同意 (45 CFR 46.116) 和知情同意文件 (45 CFR 46.117) 的一般要求可能会导致研究暂停以及罚款和处罚。
+
+**知情告知书模板下载**
+
+1. [知情同意书·知情告知页 - 四川省人民医院](https://github.com/Sky-Lee-pharm/Files-downloads/blob/main/102007171.doc)
+2. [研究知情同意书简表 - Boston Children's Hospital](https://github.com/Sky-Lee-pharm/Files-downloads/blob/main/april-2020-short-form-chinese.pdf)
+3. [知情同意书 - 上海交通大学医学院附属新华医院](https://github.com/Sky-Lee-pharm/Files-downloads/blob/main/bmjopen-2021-March-11-3--inline-supplementary-material-1.pdf)
+4. [Informed Consent Document Template and Guidelines](https://github.com/Sky-Lee-pharm/Files-downloads/blob/main/nia-informed-consent-template.docx)
