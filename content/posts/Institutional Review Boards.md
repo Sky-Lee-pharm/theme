@@ -191,9 +191,9 @@ IRB 可以对以下研究使用快速审查程序：
 >
 > 未经 IRB 事先书面批准，不得更改或偏离研究方案，除非有必要消除对参与者的直接危害。
 >
-> 立即向 IRB 报告：
-<style type="text/css">code{white-space: pre; color: black} pre{background-color: white !important;}</style>
-<pre> <code>对方案的更改或偏离，包括为消除对研究参与者的直接危害而进行的更改。 
+> 立即向 IRB 报告：<style type="text/css">code{white-space: pre; color: black} pre{background-color: white !important;}</style>
+<pre> <code>
+    对方案的更改或偏离，包括为消除对研究参与者的直接危害而进行的更改。 
     增加参与者风险或显着影响研究进行的变化。 
     所有严重且意外的药物不良反应。 
     可能对参与者的安全或研究的进行产生不利影响的新信息。</code></pre>
@@ -230,9 +230,9 @@ NIH 科学政策办公室网站上提供了有关单一IRB(sIRB) 的更多资源
 >
 > 参与临床研究的每个机构，包括 NIDA 临床试验网络 (CTN) 中的机构，都必须确定有权审查和批准该方案的所有 IRB。
 >
-> 为了批准研究方案，IRB 必须确保：
-<style type="text/css">code{white-space: pre; color: black} pre{background-color: white !important;}</style>
-<pre> <code>参与者的风险被最小化。 
+> 为了批准研究方案，IRB 必须确保：<style type="text/css">code{white-space: pre; color: black} pre{background-color: white !important;}</style>
+<pre> <code>
+    参与者的风险被最小化。 
     参与者的风险相对于预期收益是合理的。
     参与者的选择是公平的。
     正确获得并记录知情同意。
