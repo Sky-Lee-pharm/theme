@@ -24,5 +24,321 @@ title: Roles & Responsibilities
 
 以下是GCP指南中根据角色概述的职责摘要
 
-<div id="tabID" class="nested-tab-interactive interactive"><div class="vertical-tabs-container"><div class="tab-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">核心角色</font></font></div><div class="vertical-tabs-option-container"><ul class="nav nav-tabs vertical-tabs" data-tabs="tabs"><li class="vertical-tab active"><div data-toggle="pill" href="#vertTab-index-0"><img class="img-responsive" src="/assets/img/role_icons/SS_01.png"><div class="vertical-tab-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">赞助</font></font></div><div class="selected-indicator"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&gt;</font></font></div></div></li><li class="vertical-tab"><div data-toggle="pill" href="#vertTab-index-1"><img class="img-responsive" src="/assets/img/role_icons/PI_01.png"><div class="vertical-tab-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首席研究员</font></font></div><div class="selected-indicator"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&gt;</font></font></div></div></li><li class="vertical-tab"><div data-toggle="pill" href="#vertTab-index-2"><img class="img-responsive" src="/assets/img/role_icons/LI_01.png"><div class="vertical-tab-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他角色</font></font></div><div class="selected-indicator"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&gt;</font></font></div></div></li><li class="vertical-tab"><div data-toggle="pill" href="#vertTab-index-3"><img class="img-responsive" src="/assets/img/role_icons/RC_01.png"><div class="vertical-tab-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">研究</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现场工作人员</font></font></div><div class="selected-indicator"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&gt;</font></font></div></div></li></ul></div></div><div class="vertical-tabs-content-container tab-content"><div id="vertTab-index-0" class="tab-pane fade active in"><ul class="nav nav-pills"><li class="active"><a data-toggle="pill" href="#tabID-index-00"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">监控</font></font></a></li><li class=""><a data-toggle="pill" href="#tabID-index-01"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">质量保证和质量控制</font></font></a></li><li class=""><a data-toggle="pill" href="#tabID-index-02"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">专业知识</font></font></a></li><li class=""><a data-toggle="pill" href="#tabID-index-03"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">研究设计与管理</font></font></a></li><li class=""><a data-toggle="pill" href="#tabID-index-04"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">义务转移</font></font></a></li></ul><div class="tab-content"><div id="tabID-index-00" class="tab-pane fade active in"><h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据和安全监控</font></font></h2><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有 NIH 支持的多中心 III 期临床试验都必须有独立的数据和安全监测委员会 (DSMB)。</font><font style="vertical-align: inherit;">这一要求适用于药物治疗研究和行为研究。</font></font></p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每个 DSMB 的成员包括疾病领域、治疗、临床试验设计、生物统计学和研究伦理方面的专家。</font><font style="vertical-align: inherit;">DSMB 由主办方任命并向主办方报告。</font><font style="vertical-align: inherit;">他们的作用是：</font></font></p><ul><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过熟悉研究、提出适当的分析并审查可用的结果和安全数据来保护参与者的安全。</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过审查参与者登记、现场访问、研究程序、表格填写、数据质量、随访损失以及遵守研究方案的其他措施等问题的数据，确保研究的完整性。</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">监测不良事件，并在必要时建议改变研究方案或操作。</font><font style="vertical-align: inherit;">这种监测功能超出了 IRB 传统上提供的监督范围，对于多中心研究尤为重要。</font></font></li></ul><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">单击</font></font><a href="http://grants.nih.gov/grants/guide/notice-files/not98-084.html" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看 NIH 关于数据和安全监测的政策文件。</font></font></p></div><div id="tabID-index-01" class="tab-pane fade"><h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">质量保证和质量控制（ICH GCP 5.1）</font></font></h2><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">申办者负责实施和维护质量保证和质量控制系统，以确保研究的进行和记录符合方案、GCP 和监管要求。</font></font></p></div><div id="tabID-index-02" class="tab-pane fade"><h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">医学专业知识（ICH GCP 5.3）</font></font></h2><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">申办者负责指定具有适当资格的医务人员，就与试验相关的医疗问题或问题提供建议。</font></font></p></div><div id="tabID-index-03" class="tab-pane fade"><h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">研究设计和管理（ICH GCP 5.4、5.5）</font></font></h2><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">申办者负责指定合格的人员来执行研究过程的所有阶段，包括：</font></font></p><ul><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设计协议。</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">监督研究的整体进行。</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">管理和验证研究数据。</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保人类参与者的安全和权利。</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">监控学习表现。</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">规划并进行统计分析。</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">准备研究报告。</font></font></li></ul></div><div id="tabID-index-04" class="tab-pane fade"><h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">审判相关义务的转移</font></font></h2><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">申办者可以将申办者的任何或所有与试验相关的职责和职能转移给合同研究组织 (CRO)。</font><font style="vertical-align: inherit;">然而，试验数据的质量和完整性的最终责任始终由申办者承担。</font><font style="vertical-align: inherit;">任何转移给 CRO 并由其承担的与试验相关的职责和职能均以书面形式规定。</font><font style="vertical-align: inherit;">申办者应确保对其代表其履行的任何试验相关职责和职能进行监督，包括由申办者签约 CRO 分包给另一方的试验相关职责和职能（参见 ICH GCP E6 5.2.2）。</font></font></p></div></div></div><div id="vertTab-index-1" class="tab-pane fade"><ul class="nav nav-pills"><li class="active"><a data-toggle="pill" href="#tabID-index-10"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">概述</font></font></a></li><li class=""><a data-toggle="pill" href="#tabID-index-11"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资格和经验</font></font></a></li><li class=""><a data-toggle="pill" href="#tabID-index-12"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关爱参与者</font></font></a></li><li class=""><a data-toggle="pill" href="#tabID-index-13"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">沟通</font></font></a></li><li class=""><a data-toggle="pill" href="#tabID-index-14"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">遵守</font></font></a></li><li class=""><a data-toggle="pill" href="#tabID-index-15"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">产品的使用</font></font></a></li><li class=""><a data-toggle="pill" href="#tabID-index-16"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">随机化和盲法</font></font></a></li><li class=""><a data-toggle="pill" href="#tabID-index-17"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">知情同意书</font></font></a></li><li class=""><a data-toggle="pill" href="#tabID-index-18"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">记录和报告</font></font></a></li><li class=""><a data-toggle="pill" href="#tabID-index-19"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">暂停和终止</font></font></a></li></ul><div class="tab-content"><div id="tabID-index-10" class="tab-pane fade in active"><h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">概述</font></font></h2><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首席研究员 (PI) 通常是主要研究中心的 PI，负责在该中心进行临床研究。</font><font style="vertical-align: inherit;">对于多中心试验，有许多研究中心，每个研究中心都有自己负责监督的首席研究员和参与研究进行的工作人员。</font></font></p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即使特定任务被委托给其他现场研究人员，PI 仍保留最终的监督责任。</font><font style="vertical-align: inherit;">此外，PI 的职责包括：</font></font></p><ul><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">记录向合格且经过充分培训的研究人员的研究职责的授权。</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">监督研究表现并监督研究地点研究人员的表现。</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保：</font></font><ul><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参与者的福祉和安全受到保护。</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有研究程序均按照方案和 GCP 在研究地点进行。</font></font></li></ul></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为参与研究的所有员工制定沟通计划。</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">监督研究产品的责任。</font></font></li></ul><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">值得注意的是，PI 必须以该身份签署协议签名页。</font><font style="vertical-align: inherit;">如果研究是根据</font></font><a href="/modules/11" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">研究性新药</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(IND) 申请进行的，PI 还必须签署</font></font><a href="http://www.fda.gov/downloads/aboutfda/reportsmanualsforms/forms/ucm074728.pdf" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FDA 1572 表。如果研究免于 IND 要求，PI 必须签署研究者协议。</font></font></a></p></div><div id="tabID-index-11" class="tab-pane fade "><h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资格和经验（ICH GCP 4.1 和 4.2）</font></font></h2><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PI 必须：</font></font></p><ul><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过教育、培训和经验获得资格，承担正确开展研究的责任。</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果研究涉及使用研究产品，请彻底熟悉研究方案中所述的该产品的正确使用方法。</font></font></li><li>Be aware of and remain in compliance with GCP and applicable regulatory requirements.</li><li>Maintain a list of qualified persons to whom he or she delegates significant study-related duties.</li><li>Maintain supervisory responsibility for any individual or party delegated to trial-related duties and functions conducted at the trial site.</li><li>Implement procedures to ensure the integrity of the trial-related duties and functions performed and any data generated.</li></ul></div><div id="tabID-index-12" class="tab-pane fade "><h2>Medical Care of Study Participants (ICH GCP 4.3)</h2><ul><li>All study participants should receive appropriate medical care both for study-related adverse events and for all medical conditions unrelated to study participation.</li><li>A qualified physician affiliated with the study should be responsible for all study-related medical decisions.</li><li>The participant’s primary care physician should be informed about the participant’s involvement in the study, provided that the participant:<ul><li>Has a primary care physician.</li><li>Agrees that the primary care physician may be informed.</li></ul></li></ul></div><div id="tabID-index-13" class="tab-pane fade "><h2>Communication with Institutional Review Board (ICH GCP 4.4)</h2><p>The PI is identified to the designated IRB.  Before and during a study, the PI must comply with all requirements of the designated Institutional Review Boards (IRBs). A study may not begin prior to obtaining IRB approval. (See material regarding the <a href="/modules/9/3" target="_blank">Investigators’ responsibilities to the IRB</a> from the <a href="/modules/1" target="_blank">Institutional Review Boards module</a>.)</p></div><div id="tabID-index-14" class="tab-pane fade "><h2>Compliance with the Protocol (ICH GCP 4.5)</h2><p>The PI is responsible for ensuring that the study is conducted in compliance with the <a href="/modules/9/3" target="_blank">research protocol</a>. He or she should ensure that all protocol violations are identified, documented, and reported in accordance with CTN and IRB requirements. Repeated protocol violations may indicate that protocol amendments, procedural changes, or additional training are needed.</p></div><div id="tabID-index-15" class="tab-pane fade "><h2>Use of Investigational Products (ICH GCP 4.6)</h2><p>If the study involves the use of an investigational product, the PI is responsible for ensuring that the investigational product is used only in accordance with the study protocol and federal regulations; and that accountability of the investigational product is maintained. (See related material from the <a href="/modules/9" target="_blank">Investigational New Drugs module</a>.)</p><p>For clinical investigations that use controlled study drug, the PI may be required to have a medical license.  When the PI is not required to have a medical license, responsibility for receiving or administering certain drugs, reviewing safety events, and making independent medical decisions is delegated to qualified medical personnel, such as a physician, physician’s assistant, nurse practitioner , or other qualified/licensed medical professional.  These delegated responsibilities are documented in the site’s delegation of responsibilities log, and the staff assigned may serve as a sub-investigator.  Consult local regulations and oversight authorities on medical license requirements for conducting research using controlled drug.</p></div><div id="tabID-index-16" class="tab-pane fade "><h2>Randomization and Blinding (ICH GCP 4.7)</h2><p>The PI is responsible for ensuring that the study’s procedures, if any, for <a href="/modules/9/3" target="_blank">randomization and blinding</a>  are followed.</p></div><div id="tabID-index-17" class="tab-pane fade "><h2>Informed Consent (ICH GCP 4.8)</h2><p>The PI is responsible for ensuring that procedures for obtaining and documenting informed consent comply with GCP and with the ethical principles originating in the Declaration of Helsinki.</p></div><div id="tabID-index-18" class="tab-pane fade "><h2>Records and Reports (ICH GCP 4.9)</h2><p>The PI is responsible for ensuring that  all study data that are reported to the Sponsor are accurate, legible, contemporaneous, original, accurate, and complete. Changes to the source data should be traceable, should not obscure the original entry, and should be explained if necessary (e.g., via an audit trail).</p><p>The PI should provide written reports on the status of the study to the Sponsor and IRB when and as often as required to do so at each institution where the study is conducted.</p><p>All serious adverse events must be reported immediately to the Sponsor. The PI must also comply with regulatory requirements to report serious adverse events to the IRB and regulatory authorities.</p><h2>Final Study Reports (ICH GCP 4.13)</h2><p>On completion of the study, the PI is responsible for providing:</p><p>All required reports to the Sponsor and regulatory authorities.</p><p>A summary of the study outcome to the Institutional Review Board.</p><p>Records and reports are discussed in greater detail in the Documentation and Record Keeping module. Serious adverse events are discussed in the Participant Safety and Adverse Events module.</p></div><div id="tabID-index-19" class="tab-pane fade "><h2>Premature Suspension or Termination of Study (ICH GCP 4.12)</h2><p>If the study is suspended or stopped early for any reason, the PI is responsible for:</p><ul><li>Promptly informing all study participants.</li><li>Ensuring that all participants receive appropriate therapy and follow-up.</li><li>Complying with all requirements to inform regulatory authorities.</li></ul></div></div></div><div id="vertTab-index-2" class="tab-pane fade"><ul class="nav nav-pills"><li class="active"><a data-toggle="pill" href="#tabID-index-20">Overview</a></li><li class=""><a data-toggle="pill" href="#tabID-index-21">QA</a></li><li class=""><a data-toggle="pill" href="#tabID-index-22">Training</a></li><li class=""><a data-toggle="pill" href="#tabID-index-23">Regulatory Affairs</a></li></ul><div class="tab-content"><div id="tabID-index-20" class="tab-pane fade active in"><h2>Overview</h2><p>The investigator convenes a Protocol Team to assist with all aspects of the operation of the study. In addition to the responsibilities listed under Principle Investigator, other responsibilities represented on the Protocol Team usually include, but are not limited to, Quality Assurance, Training, and Regulatory Affairs.</p></div><div id="tabID-index-21" class="tab-pane fade"><h2>Quality Assurance</h2><p>Quality Assurance (QA) staff is responsible for:</p><ul><li>Reviewing the protocol to check for inconsistencies and problematic wording that will increase the likelihood of protocol violations.</li><li>Reviewing monitoring reports of site visits to ensure that all identified issues are addressed in an appropriate and timely fashion and are communicated to the investigative team.</li><li>Conducting site visits on the behalf of the Sponsor as needed.</li></ul></div><div id="tabID-index-22" class="tab-pane fade"><h2>Training</h2><p>Training staff is responsible for:</p><ul><li>Developing a study-specific training plan.</li><li>Ensuring that all training of study staff is conducted as planned and documented on the study specific training log.</li></ul></div><div id="tabID-index-23" class="tab-pane fade"><h2>Regulatory Affairs</h2><p>Regulatory Affairs staff is responsible for:</p><ul><li>Writing the study informed consent documents.</li><li>Submitting the protocol, consent documents, and Institutional Review Board (IRB) documents to the IRB and making any changes in those documents required by the IRB.</li><li>Distributing the IRB-approved protocol, consent documents, and Institutional Review Board (IRB) documents to participating research sites to assist them in preparing their IRB submissions.</li><li>Preparing and distributing a checklist of items that participating sites must have, and</li><li>Providing regulatory guidance to the study sites as necessary.</li></ul><p>This responsibility continues throughout the duration of the trial e.g. submission of a Protocol Amendment.</p></div></div></div><div id="vertTab-index-3" class="tab-pane fade"><ul class="nav nav-pills"><li class="active"><a data-toggle="pill" href="#tabID-index-30">Research Coordinator/Assistant</a></li><li class=""><a data-toggle="pill" href="#tabID-index-31">Other Staff</a></li></ul><div class="tab-content"><div id="tabID-index-30" class="tab-pane fade active in"><h2>Research Coordinator/Assistant</h2><p>Under the supervision of the PI at the site, examples of responsibilities for the Research Coordinator/Assistant may include:</p><ul><li>Ensuring that study data is accurately collected and reported.</li><li>Reporting any study or participant problems.</li><li>Maintaining regulatory files at the study site.</li><li>Working with the Quality Assurance Monitor and data management staff to identify and resolve data and reporting issues.</li></ul><p>The Research Assistant’s role frequently also includes interacting with study participants by performing assessments (for example, assessing quality of life) and other protocol procedures.</p></div><div id="tabID-index-31" class="tab-pane fade"><h2>Nurses, Pharmacists, Counselors, Supervisors and Other Staff</h2><p>Nurses, pharmacists, and other staff are responsible for carrying out study procedures as described in the protocol (e.g., receiving and dispensing medications, conducting physical examinations, delivering behavioral interventions) and for assessing and reporting adverse events to appropriate staff.</p></div></div></div></div></div>
+**核心角色**
+
+赞助：
+
+**监控**
+
+**数据和安全监控**
+所有NIH支持的多中心III期临床试验都必须有独立的数据和安全监测委员会(DSMB)。这一要求适用于药物治疗研究和行为研究。
+
+每个DSMB的成员包括疾病领域、治疗、临床试验设计、生物统计学和研究伦理方面的专家。DSMB由主办方任命并向主办方报告。他们的作用是：
+
+> 通过熟悉研究、提出适当的分析并审查可用的结果和安全数据来保护参与者的安全。
+>
+> 通过审查参与者登记、现场访问、研究程序、表格填写、数据质量、随访损失以及遵守研究方案的其他措施等问题的数据，确保研究的完整性。
+>
+> 监测不良事件，并在必要时建议改变研究方案或操作。这种监测功能超出了IRB传统上提供的监督范围，对于多中心研究尤为重要。
+
+**质量保证和质量控制**
+
+**质量保证和质量控制（ICH GCP 5.1）**
+申办者负责实施和维护质量保证和质量控制系统，以确保研究的进行和记录符合方案、GCP 和监管要求。
+
+**专业知识**
+
+**医学专业知识（ICH GCP 5.3）**
+申办者负责指定具有适当资格的医务人员，就与试验相关的医疗问题或问题提供建议。
+
+**研究设计和管理**
+
+**研究设计和管理（ICH GCP 5.4、5.5）**
+申办者负责指定合格的人员来执行研究过程的所有阶段，包括：
+
+> 设计协议。
+>
+> 监督研究的整体进行。
+>
+> 管理和验证研究数据。
+>
+> 确保人类参与者的安全和权利。
+>
+> 监控学习表现。
+>
+> 规划并进行统计分析。
+>
+> 准备研究报告。
+
+**义务转移**
+
+**审判相关义务的转移**
+申办者可以将申办者的任何或所有与试验相关的职责和职能转移给合同研究组织 (CRO)。然而，试验数据的质量和完整性的最终责任始终由申办者承担。任何转移给CRO并由其承担的与试验相关的职责和职能均以书面形式规定。申办者应确保对其代表其履行的任何试验相关职责和职能进行监督，包括由申办者签约CRO分包给另一方的试验相关职责和职能（参见 ICH GCP E6 5.2.2）。
+
+**首席研究员**
+
+**概述**
+
+概述
+首席研究员 (PI) 通常是主要研究中心的 PI，负责在该中心进行临床研究。对于多中心试验，有许多研究中心，每个研究中心都有自己负责监督的首席研究员和参与研究进行的工作人员。
+
+即使特定任务被委托给其他现场研究人员，PI 仍保留最终的监督责任。此外，PI 的职责包括：
+
+> 记录向合格且经过充分培训的研究人员的研究职责的授权。
+>
+> 监督研究表现并监督研究地点研究人员的表现。
+>
+> 确保：<style type="text/css">code{white-space: pre; color: black} pre{background-color: white !important;}</style>
+<pre> <code>
+参与者的福祉和安全受到保护。
+所有研究程序均按照方案和 GCP 在研究地点进行。</code></pre>
+
+> 为参与研究的所有员工制定沟通计划。
+>
+> 监督研究产品的责任。
+
+值得注意的是，PI必须以该身份签署协议签名页。如果研究是根据研究性新药(IND) 申请进行的，PI还必须签署FDA 1572表。如果研究免于IND要求，PI必须签署研究者协议。
+
+**资格与经验**
+
+**资格和经验（ICH GCP 4.1 和 4.2）**
+PI 必须：
+
+> 通过教育、培训和经验获得资格，承担正确开展研究的责任。
+>
+> 如果研究涉及使用研究产品，请彻底熟悉研究方案中所述的该产品的正确使用方法。
+>
+> 了解并始终遵守 GCP 和适用的监管要求。
+>
+> 保留一份合格人员名单，由他或她委派重要的学习相关职责。
+>
+> 对被委托在试验现场执行与试验相关的职责和职能的任何个人或团体保持监督责任。
+>
+> 实施程序以确保所执行的与试验相关的职责和职能以及生成的任何数据的完整性。
+
+**关爱参与者**
+
+**研究参与者的医疗保健 (ICH GCP 4.3)**
+所有研究参与者都应针对与研究相关的不良事件以及与研究参与无关的所有医疗状况接受适当的医疗护理。
+与研究相关的合格医生应对所有与研究相关的医疗决策负责。
+应告知参与者的初级保健医生参与者参与研究的情况，前提是参与者：
+
+> 拥有一名初级保健医生。
+>
+> 同意可以通知初级保健医生。
+
+**沟通**
+
+与机构审查委员会沟通 (ICH GCP 4.4)
+PI由指定的IRB识别。在研究之前和研究期间，PI必须遵守指定机构审查委员会(IRB)的所有要求。在获得IRB批准之前不得开始研究。（请参阅机构审查委员会模块中有关研究者对IRB的责任的材料。）
+
+**遵守**
+
+**遵守协议 (ICH GCP 4.5)**
+PI负责确保研究按照研究方案进行。他或她应确保按照CTN和IRB的要求识别、记录和报告所有违反协议的行为。反复违反方案可能表明需要修改方案、改变程序或进行额外培训。
+
+**产品的使用**
+
+**研究产品的使用（ICH GCP 4.6）**
+如果研究涉及使用研究产品，PI负责确保仅按照研究方案和联邦法规使用研究产品；并维持研究产品的责任。（参见研究性新药模块的相关材料。）
+
+对于使用对照研究药物的临床研究，PI可能需要拥有医疗许可证。当PI不需要持有医疗执照时，接收或使用某些药物、审查安全事件以及做出独立医疗决定的责任被委托给合格的医务人员，例如医生、医生助理、执业护士或其他合格的人员。 持有执照的医疗专业人员。这些委派的职责记录在站点的职责委派日志中，指定的工作人员可以担任副研究员。请咨询当地法规和监管机构，了解使用管制药物进行研究的医疗许可要求。
+
+**随机化和盲法**
+
+**随机化和盲法(ICH GCP 4.7)**
+PI负责确保遵循研究的随机化和盲法程序（如果有）。
+
+**知情同意书**
+
+**知情同意书 (ICH GCP 4.8)**
+PI负责确保获取和记录知情同意的程序符合GCP以及源自《赫尔辛基宣言》的道德原则。
+
+**记录和报告**
+
+**记录和报告 (ICH GCP 4.9)**
+PI负责确保向申办者报告的所有研究数据准确、清晰、同步、原始、准确和完整。对源数据的更改应该是可追踪的，不应该掩盖原始条目，并且应该在必要时进行解释（例如，通过审计跟踪）。
+
+PI应根据开展研究的每个机构的要求，按要求向申办者和IRB提供有关研究状态的书面报告。
+
+所有严重不良事件必须立即报告给申办者。PI还必须遵守监管要求，向IRB和监管机构报告严重不良事件。
+
+**最终研究报告（ICH GCP 4.13）**
+研究完成后，PI负责提供：
+
+> 向保荐人和监管机构提交的所有必需报告。
+>
+> 向机构审查委员会提交研究结果的摘要。
+>
+> 记录和报告在文档和记录保存模块中进行了更详细的讨论。严重不良事件在参与者安全和不良事件模块中讨论。
+
+**暂停和终止**
+
+**提前暂停或终止研究（ICH GCP 4.12）**
+如果研究因任何原因暂停或提前停止，PI负责：
+
+> 立即通知所有研究参与者。
+>
+> 确保所有参与者接受适当的治疗和随访。
+>
+> 遵守通知监管机构的所有要求。
+
+**其他角色**
+
+**概述**
+
+研究者召集了一个方案小组来协助研究运作的各个方面。除了主要研究者列出的职责外，方案团队的其他职责通常包括但不限于质量保证、培训和监管事务。
+
+**质量保证**
+
+质量保证 (QA) 人员负责：
+
+> 审查协议以检查是否存在不一致和有问题的措辞，这些措辞会增加违反协议的可能性。
+>
+> 审查现场访问的监测报告，以确保所有发现的问题得到适当和及时的解决，并传达给调查小组。
+>
+> 根据需要代表主办方进行实地考察。
+
+**训练**
+
+培训人员负责：
+
+> 制定针对具体研究的培训计划。
+>
+> 确保研究人员的所有培训均按计划进行并记录在研究特定培训日志中。
+
+**监管事物**
+
+监管事务人员负责：
+
+> 撰写研究知情同意文件。
+>
+> 向IRB提交方案、同意文件和机构审查委员会 (IRB) 文件，并根据IRB的要求对这些文件进行任何更改。
+>
+> 将 IRB批准的方案、同意文件和机构审查委员会 (IRB) 文件分发给参与的研究机构，以协助他们准备IRB提交材料。
+>
+> 准备并分发参与站点必须具备的项目清单，以及
+>
+> 必要时向研究地点提供监管指导。
+>
+> 这一责任在整个试验期间持续存在，例如提交方案修正案。
+
+**研究现场工作人员**
+
+**临床协调员/助理**
+
+在现场 PI 的监督下，研究协调员/助理的职责示例可能包括：
+
+> 确保准确收集和报告研究数据。
+>
+> 报告任何研究或参与者问题。
+>
+> 维护研究地点的监管文件。
+>
+> 与质量保证监控员和数据管理人员合作，识别并解决数据和报告问题。
+>
+> 研究助理的角色还经常包括通过执行评估（例如，评估生活质量）和其他协议程序与研究参与者进行互动。
+
+**其他员工**
+
+**护士、药剂师、辅导员、主管和其他工作人员**
+护士、药剂师和其他工作人员负责执行方案中描述的研究程序（例如，接受和分发药物、进行体检、提供行为干预）以及评估不良事件并向适当的工作人员报告。
+
+**有关 CTN 中临床试验的角色和责任的更多信息**
+NIDA 临床试验网络已建立应用 GCP 的流程，以最大化其节点和多中心平台，并遵守 NIH 资助的研究政策。以下定义了 CTN 中建立的可能与其他研究不同的基础设施变化和流程。
+
+**医学专业知识（ICH GCP 5.3）**
+对于 CTN 研究，首席研究员必须指定一名研究医疗监察员，负责确保研究参与者的护理和安全。此外，NIDA 还任命了一名研究医疗官员，该官员具有监督作用，并充当首席研究员和研究医疗监察员的资源。
+
+**研究设计和管理（ICH GCP 5.4、5.5）**
+对于 CTN 研究，首席研究员必须指定一个方案团队来设计方案、协助方案实施并准备任何必要的报告。NIDA 通过指定独立监督委员会来审查所有方案并监督研究的进行来履行其职责。如前所述，NIDA 还与监督员签订合同，由他们在进行 CTN 研究的所有研究地点进行质量保证实地考察，并要求每个节点在参与该节点内研究的所有研究地点进行定期实地考察。这些实地考察的结果必须报告给 NIDA。
+
+CTN研究中的其他角色和职责
+参与研究的每个人都有责任：
+
+> 保护研究参与者的权利和安全，
+>
+> 遵守研究方案，并且
+>
+> 准确、完整地报告研究数据。
+
+以下描述旨在阐明所有 CTN 研究中必须履行的角色和责任，而不是定义个人所担任的具体职位。此处使用的职位名称可能与参与 CTN 研究的每个组织使用的职位名称不同。
+
+NIDA通常被认为是CTN内进行的研究的赞助商。在特殊情况下，这种考虑可能会有所不同。例如，就FDA而言，如果研究正在进行IND，申办者就是IND持有人；并且，与IND持有人和合作伙伴组织签署了责任转移协议。虽然申办者对其进行的任何临床研究负有主要责任，但CTN将全部或部分责任转移给合作伙伴组织。
+
+**参与节点的角色和职责**
+根据每项研究的资助条款和条件，NIDA将作为申办者的其他职责转移给研究的首席研究员和节点首席研究员，例如质量保证和控制、监督和培训。
+
+对于CTN研究，NIDA通过以下方式履行质量保证和控制责任：
+
+> 与在进行CTN研究的所有研究地点进行质量保证实地考察的监督员签订合同。
+>
+> 要求每个节点对参与该节点内研究的所有研究地点进行定期质量保证现场访问。这些实地考察的结果必须报告给NIDA。
+
+在CTN中，网络基础设施包括对区域分配的研究站点负有监督和培训责任的CTN节点。每个CTN节点独立运作，并根据其需求和资源创建自己的组织结构。因此，研究人员的职位名称和职位描述在节点之间并未标准化。在一个节点，多名工作人员可以执行一个角色，而在另一节点，一名工作人员可以执行多个角色。CTN 节点还分配有区域研究地点。以下信息总结了节点员工的角色。
+
+**节点首席研究员**
+节点PI（或受资助者）对其节点的研究表现向NIDA负责。他或她与Node工作人员、该研究的首席研究员以及研究地点的首席研究员合作实施该研究。
+
+节点PI负责确保研究在其节点顺利进行，并在必要时采取适当行动来协助首席研究员和研究中心PI以及其他研究人员。节点PI的其他职责包括：
+
+> 任命工作人员指导研究运作。
+>
+> 管理节点预算和员工。
+>
+> 指定一名监督员对研究地点进行质量保证实地考察。
+>
+> 确保研究人员接受适当的培训以进行研究。
+>
+> 确保研究获得所有必要的 IRB 批准并遵守所有适用的法规，以及
+>
+> 确保节点的机构政策符合这些政策。
+
+**节点协调员**
+节点协调员：
+
+> 协调节点的所有研究活动。
+>
+> 确保日常活动按照 GCP 进行。
+>
+> 充当节点、首席研究员和 CTN 之间研究事项的联络人，以及
+>
+> 充当节点研究信息的主要联系人。
+>
+> 节点质量保证监视器
+
+节点 QA 监控员负责监控节点内的研究并向 NIDA、节点 PI 和首席研究员报告结果。此人不仅必须非常熟悉研究方案，而且还必须非常熟悉 GCP。
+
+**节点监管事务人员**
+节点监管事务人员负责：
+
+> 向节点参与站点的机构审查委员会 (IRB) 提交研究方案、知情同意书和任何其他相关文件。
+>
+> 确保研究中心使用最近批准的知情同意文件。
+>
+> 协助创建和维护研究的监管文件。
+>
+> 根据相关IRB的要求，向其提交有关不良事件、严重不良事件和方案违规的数据。
+>
+> 协调 IRB 对研究方案和材料的持续审查，以确保 IRB 对研究的持续批准。
+
+**要点总结**
+
+> 良好临床实践(GCP)指南具体定义了临床研究申办者和主要研究者的职责。
+>
+> 试验数据的质量和完整性的最终责任始终由申办者承担，尽管申办者的某些义务可能委托给合作伙伴组织或合同研究组织(CRO)。
+>
+> 首席研究员(PI)负责在研究中心进行临床研究，并保留最终责任，即使特定任务被委托给其他中心研究人员也是如此。
+
+NIDA临床试验网络(CTN)为其他个人和团体定义了角色和责任，这些个人和团体的工作对于临床研究的正确进行至关重要。
+NIDA是CTN内进行的研究的赞助商。然而，根据每项研究的资助条款和条件，NIDA将作为赞助商的一些责任转移给研究的首席研究员和合同研究组织。
+根据研究和CTN结构下涉及的各方：
+
+> 首席研究员对整个研究负有总体责任。
+>
+> 节点PI（或受资助者）对其节点的研究表现向 NIDA 负责。
+>
+> 对于节点参与的每项研究，节点PI为每个研究中心指定一名PI，该PI负责对中心绩效进行监督，并负责研究完整性、人类参与者保护以及指定研究中心的工作人员履行委托职责（s）。
+>
+> 每个CTN节点独立运作，并根据其需求和资源创建自己的组织结构。因此，不同节点的职位名称和职位描述各不相同。
 
