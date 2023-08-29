@@ -94,39 +94,4 @@ IRB 必须拥有多元化的成员，其中包括科学家和非科学家。科�
 			</table>
 		</div>
 
-<div id="mod-1-sect-3-tab" class="tab-interactive interactive">
-			<ul class="nav nav-pills">
-									<li class="active"><a data-toggle="pill" href="#mod-1-sect-3-tab-index-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多样性</font></font></a></li>
-									<li class=""><a data-toggle="pill" href="#mod-1-sect-3-tab-index-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">弱势群体</font></font></a></li>
-									<li class=""><a data-toggle="pill" href="#mod-1-sect-3-tab-index-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">利益冲突</font></font></a></li>
-									<li class=""><a data-toggle="pill" href="#mod-1-sect-3-tab-index-3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无投票权的成员</font></font></a></li>
-							</ul>
 
-			<div class="tab-content">
-									<div id="mod-1-sect-3-tab-index-0" class="tab-pane fade in active">
-						
-			<h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">成员多元化</font></font></h3>
-			<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IRB 成员必须在种族、性别和文化遗产方面具有多样性。</font><font style="vertical-align: inherit;">成员必须对社区态度等问题保持敏感。</font></font></p>
-			<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">必须尽一切努力确保IRB 不完全由男性或女性组成。</font><font style="vertical-align: inherit;">然而，任何人都不能仅根据性别被任命为 IRB 成员。</font></font></p>
-			<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任何 IRB 不得完全由某一专业的成员组成。</font></font></p>
-			<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每个 IRB 应至少包括一名主要关注科学领域的成员和一名主要关注非科学领域的成员。</font></font></p>
-			<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每个 IRB 应至少包括一名不隶属于该机构或研究中心的成员。</font></font></p>
-							</div>
-									<div id="mod-1-sect-3-tab-index-1" class="tab-pane fade ">
-						
-			<h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对弱势群体的了解</font></font></h3>
-			<p>If the IRB reviews research that involves vulnerable populations — such as children, prisoners, pregnant women, or disabled or cognitively impaired persons — its membership should include one or more persons who are knowledgeable about and/or experienced in working with these populations. The individuals specializing in vulnerable populations may be fulltime voting members or alternates to fulltime voting members.</p>
-							</div>
-									<div id="mod-1-sect-3-tab-index-2" class="tab-pane fade ">
-						
-			<h3>Conflicts of Interest</h3>
-			<p>No IRB member may participate in the review of any project in which he or she has a conflicting interest, except to provide information requested by the IRB.</p>
-			<p>An <a href="#" class="glossary-term" data-toggle="modal" data-target="#glossary-modal" data-term="investigator">investigator</a> may be a member of an IRB. However, the investigator (or any other IRB member) cannot participate in the review or approval of any research in which he or she has a current or potential conflict of interest. The investigator should be absent from the meeting room while the IRB discusses and votes on the research in which he or she has an interest.</p>
-							</div>
-									<div id="mod-1-sect-3-tab-index-3" class="tab-pane fade ">
-						
-			<h3>Non-Voting Members</h3>
-			<p>The IRB may invite individuals with competence in special areas to assist in the review of issues that require expertise beyond or in addition to that of the IRB members. These consultants are not voting members of the IRB. However, when research involves vulnerable populations, individuals specializing in these areas must be voting members of an IRB and maintained on the IRB roster accordingly.</p>
-							</div>
-							</div>
-		</div>
