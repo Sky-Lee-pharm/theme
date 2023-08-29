@@ -61,39 +61,7 @@ IRB 必须拥有多元化的成员，其中包括科学家和非科学家。科�
 
 总的来说，IRB成员必须具备审查和评估拟议研究的科学、医学、行为、社会、法律和伦理方面的资格和经验。IRB必须至少有五名成员。然而，它可以有尽可能多的成员来对研究活动进行完整和充分的审查。下表列出了基于ICH指南以及FDA美国研究指南的IRB最低标准。
 
-<div id="mod-1-sect-3-table" class="table-interactive">
-			<table>
-				<thead>
-				<tr>
-											<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ICH</font></font></th>
-											<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">美国食品药品监督管理局</font></font></th>
-									</tr>
-				</thead>
-				<tbody>
-									<tr>
-													<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">至少 5 名成员</font></font></td>
-													<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">至少 5 名成员</font></font></td>
-											</tr>
-									<tr>
-													<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">至少 1 名具有科学背景的成员</font></font></td>
-													<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">至少 1 项科学和 1 项非科学</font></font></td>
-											</tr>
-									<tr>
-													<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1 名不隶属于任何机构的成员</font></font></td>
-													<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1 名不隶属于任何机构的成员</font></font></td>
-											</tr>
-									<tr>
-													<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">独立于保荐人提供意见</font></font></td>
-													<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多元化（种族、性别、文化、弱势群体代表）</font></font></td>
-											</tr>
-									<tr>
-													<td></td>
-													<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无利益冲突</font></font></td>
-											</tr>
-								</tbody>
-			</table>
-		</div>
-
+<table><thead><tr><th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ICH</font></font></th><th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">美国食品药品监督管理局</font></font></th></tr></thead><tbody><tr><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">至少 5 名成员</font></font></td><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">至少 5 名成员</font></font></td></tr><tr><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">至少 1 名具有科学背景的成员</font></font></td><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">至少 1 项科学和 1 项非科学</font></font></td></tr><tr><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1 名不隶属于任何机构的成员</font></font></td><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1 名不隶属于任何机构的成员</font></font></td></tr><tr><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">独立于保荐人提供意见</font></font></td><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多元化（种族、性别、文化、弱势群体代表）</font></font></td></tr><tr><td></td><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无利益冲突</font></font></td></tr></tbody></table>
 
 **IRB的职责**
 
