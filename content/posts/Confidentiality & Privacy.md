@@ -145,9 +145,9 @@ title: Confidentiality & Privacy
 
 > 密封在信封或其他容器中。
 >
-> 根据 42 CFR 2.19(b)(1)，标记如下：
-<style type="text/css">code{white-space: pre; color: black} pre{background-color: white !important;}</style>
-<pre> <code>“[插入项目名称]的记录需要根据[插入法规、法规、法院命令或其他要求保存记录的法律权威的引用]保存，直至不晚于[插入适当日期]。”
+> 根据 42 CFR 2.19(b)(1)，标记如下：<style type="text/css">code{white-space: pre; color: black} pre{background-color: white !important;}</style>
+<pre> <code>
+    “[插入项目名称]的记录需要根据[插入法规、法规、法院命令或其他要求保存记录的法律权威的引用]保存，直至不晚于[插入适当日期]。”
     
     由负责人保管，负责人必须在指定保留期限结束后尽快销毁记录。</code></pre>
 
@@ -348,9 +348,9 @@ NIDA临床试验网络(CTN)的所有成员必须确保获得研究对象知情�
 
 > 确定谁被允许使用或接收有限的数据集。
 >
-> 规定收件人将：
-<style type="text/css">code{white-space: pre; color: black} pre{background-color: white !important;}</style>
-<pre> <code>除协议允许或法律要求外，不得使用或披露该信息。
+> 规定收件人将：<style type="text/css">code{white-space: pre; color: black} pre{background-color: white !important;}</style>
+<pre> <code>
+    除协议允许或法律要求外，不得使用或披露该信息。
     使用适当的保护措施来防止使用或披露信息，协议允许的情况除外。
     要求接收方的任何代理人（包括分包商）遵守数据使用协议中规定的标准、限制和条件。
     不识别信息或联系其信息包含在有限数据集中的个人。</code></pre>
@@ -391,9 +391,9 @@ NIDA临床试验网络(CTN)的所有成员必须确保获得研究对象知情�
 
 如果机构审查委员会或隐私委员会满足以下条件，则可以全部或部分放弃参与者授权披露受保护健康信息 (PHI) 的要求：
 
-> 使用或披露对个人隐私的风险不会超过最低限度，因为
-<style type="text/css">code{white-space: pre; color: black} pre{background-color: white !important;}</style>
-<pre> <code>制定适当的计划来保护健康信息标识符免遭不当使用和披露，并尽快销毁标识符；和
+> 使用或披露对个人隐私的风险不会超过最低限度，因为<style type="text/css">code{white-space: pre; color: black} pre{background-color: white !important;}</style>
+<pre> <code>
+    制定适当的计划来保护健康信息标识符免遭不当使用和披露，并尽快销毁标识符；和
     已提供充分的书面保证，确保 PHI 不会被重复使用或与任何其他个人或实体共享，除非法律要求、用于​​授权监督研究或用于其他研究目的。</code></pre>
 
 > 如果没有放弃或变更，该研究实际上无法进行。
@@ -420,9 +420,9 @@ NIDA临床试验网络(CTN)的所有成员必须确保获得研究对象知情�
 
 在以下情况下，涵盖实体可以未经授权使用和披露受保护的健康信息 (PHI)：
 
-> 研究人员在书面中指出：
-<style type="text/css">code{white-space: pre; color: black} pre{background-color: white !important;}</style>
-<pre> <code>所寻求的使用或披露仅用于研究死者的 PHI；
+> 研究人员在书面中指出：<style type="text/css">code{white-space: pre; color: black} pre{background-color: white !important;}</style>
+<pre> <code>
+    所寻求的使用或披露仅用于研究死者的 PHI；
     寻求的 PHI 对于研究是必要的；和
     所涵盖的实体获得其 PHI 被寻求者的死亡文件。</code></pre>
 
