@@ -89,9 +89,9 @@ title: The research protocol
 > 相关文献和数据的参考（这通常会在协议的单独部分中编译）。
 >
 > 如果研究涉及使用研究产品或疗法：
-
-    研究产品或疗法的名称和描述。
-    给药途径、剂量、给药方案和治疗周期的描述和理由。
+<style type="text/css">code{white-space: pre; color: black} pre{background-color: white !important;}</style>
+<pre> <code>研究产品或疗法的名称和描述。
+    给药途径、剂量、给药方案和治疗周期的描述和理由。</code></pre>
 
 **研究目标和目的**
 
@@ -124,11 +124,11 @@ title: The research protocol
 > 纳入和排除参与者的标准。
 >
 > 退出参与者的程序（参与者或研究者发起）：
-
-    何时以及如何让参与者退出研究/研究产品治疗。
+<style type="text/css">code{white-space: pre; color: black} pre{background-color: white !important;}</style>
+<pre> <code>何时以及如何让参与者退出研究/研究产品治疗。
     为退出研究的参与者收集数据的类型和时间。
     是否以及如何更换参与者。
-    对退出试验治疗的参与者进行随访。
+    对退出试验治疗的参与者进行随访。</code></pre>
 
 **参与者的待遇**
 
@@ -144,18 +144,18 @@ title: The research protocol
 > 在研究之前和/或期间允许但不允许的其他药物或治疗（包括救援药物）。
 >
 > 其他干预措施（即脊椎按摩疗法、物理治疗、社会治疗、行为治疗、咨询）：
-
-    干预名称（即动机访谈、认知行为疗法）。
+<style type="text/css">code{white-space: pre; color: black} pre{background-color: white !important;}</style>
+<pre> <code>干预名称（即动机访谈、认知行为疗法）。
     会议频率。
     每个会话的持续时间。
     每次干预的方法（即个人、小组）。
-    治疗依从性。
+    治疗依从性。</code></pre>
 
 > 所有干预措施：
-
-    干预期，包括每组参与者的随访期。
+<style type="text/css">code{white-space: pre; color: black} pre{background-color: white !important;}</style>
+<pre> <code>干预期，包括每组参与者的随访期。
     监控参与者遵守情况的程序。
-    确定谁将实施干预。
+    确定谁将实施干预。</code></pre>
 
 **疗效评估**
 
