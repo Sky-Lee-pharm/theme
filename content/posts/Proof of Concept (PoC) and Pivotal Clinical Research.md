@@ -32,7 +32,7 @@ H<sub>OA</sub>:m<sub>A</sub> ≤ m<sub>p</sub>, VS H<sub>1A</sub>:m<sub>A</sub> 
 
 H<sub>OB</sub>:m<sub>B</sub> ≤ m<sub>p</sub>, VS H<sub>1B</sub>:m<sub>B</sub> > m<sub>p</sub>
 
-其中μ<sub>A<sub>、μ<sub>B和μ<sub>P<sub>分别表示候选A、B和地点的平均效应。
+其中μ<sub>A</sub>、μ<sub>B</sub>和μ<sub>P</sub>分别表示候选A、B和地点的平均效应。
 
 通过这种研究设计，许多统计学家的第一本能是控制家庭方面或实验方面的 I 类错误。可以考虑多重控制程序，例如 Bonferroni 校正。如果显着性水平控制在单侧α，则每个假设都在α/2水平进行检验。因此，每个候选药物Go/NoGo决策的错误率控制在α/2水平。显着性水平反映了对错误率的接受程度，也代表了决策的置信程度。
 
