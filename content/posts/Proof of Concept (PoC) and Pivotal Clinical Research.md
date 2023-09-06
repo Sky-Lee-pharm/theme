@@ -28,7 +28,7 @@ PoC 研究旨在帮助药物开发商根据候选药物的功效表现做出“G
 
 在这些示例中，为候选人 A、候选人 B 和安慰剂 P 设计了平行三组研究。对应于每个候选人的两组统计假设可以写为以下形式：
 
-$$H<sub>OA</sub>:m<sub>A</sub> \leq m<sub>p</sub>, VS H<sub>1A</sub>:m<sub>A</sub> > m<sub>p</sub>$$
+H<sub>OA</sub>:m<sub>A</sub> $\leq$ m<sub>p</sub>, VS H<sub>1A</sub>:m<sub>A</sub> > m<sub>p</sub>
 
-$$H<sub>OB</sub>:m<sub>B</sub> \leq m<sub>p</sub>, VS H<sub>1B</sub>:m<sub>B</sub> > m<sub>p</sub>$$
+H<sub>OB</sub>:m<sub>B</sub> $\leq$ m<sub>p</sub>, VS H<sub>1B</sub>:m<sub>B</sub> > m<sub>p</sub>
 
